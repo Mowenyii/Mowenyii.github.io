@@ -1,7 +1,55 @@
-I'm a third year undergraduate student from [School of EECS](https://eecs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). My research interest includes computer vision, computer graphics, machine learning, and computational photography.
+---
+permalink: /
+title: "About me"
+excerpt: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
-I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
+Wenyi Mo is a 1st year master's student who is currently pursuing her degree in Artificial Intelligence at Gaoling School of Artificial Intelligence, Renmin University of China. Under the guidance and mentorship of A.P. Bing Su, Wenyi has shown great potential and interest in the areas of Conditional Image Generation, Diffusion Models, Prompt Engineering, and Multimodal Learning. She has also completed her bachelor's degree in the School of Computer Science and Engineering from South China University of Technology in 2022. Wenyi is passionate about her research and welcomes any opportunities to collaborate or discuss her work. To get in touch with her, you can reach out via email at mowenyi@ruc.edu.cn.
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+Publications
+------
+### Conference Papers
+- EDIT: Efficient Text-Driven Real Image Manipulation with Diffusion Models. **Wenyi Mo**, Heng Zhang, Jiangmeng Li, Bing Su, and Ji-Rong Wen. In submission.
+    
 
-[Email](mailto:XX@stu.pku.edu.cn) / [Github](https://github.com/QiuDi233) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
+- Automatic Prompt Editing for Improved Text-to-Image Generation via Reinforcement Learning. **Wenyi Mo**, Bing Su, and Ji-Rong Wen. In submission.
+
+
+- Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. Jiangmeng Li*, **Wenyi Mo***, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
+
+
+- MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning. Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. NeurIPS 2022.
+
+
+Educations
+------
+- 2022.09 - now, Master, Artificial Intelligence, Renmin University of China.
+- 2018.09 - 2022.07, Bachelor, Computer Science, South China University of Technology.
+
+[//]: # (Experiences)
+
+[//]: # (------)
+
+[//]: # (- ### Tencent Robotics X &#40;Oct. 2020 – Jun. 2021&#41;)
+
+[//]: # (   Researched on efficient goal-conditioned RL algorithms.)
+
+[//]: # (- ### Tencent AI Lab &#40;Jun. 2020 – Sep. 2020&#41;)
+
+[//]: # (   Researched on multi-step HER and offline meta RL.)
+
+[//]: # (- ### Meituan Financial Service Group &#40;Jul. 2019 – Sep. 2019&#41;)
+
+[//]: # (  Controlled the advertising speed of Meituan app via a pacing PI control algorithm.)
+
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (Others)
+
+[//]: # (------)
