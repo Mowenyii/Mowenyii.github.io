@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Wenyi Mo is a 1st year master's student who is currently pursuing her degree in [Artificial Intelligence at Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/). Under the guidance and mentorship of A.P. [Bing Su](https://gsai.ruc.edu.cn/bingsu), Wenyi has shown great potential and interest in the areas of Conditional Image Generation, Diffusion Models, Prompt Engineering, and Multimodal Learning. She has also completed her bachelor's degree in the School of Computer Science and Engineering from [South China University of Technology](https://www.scut.edu.cn/new/) in 2022. Wenyi is passionate about her research and welcomes any opportunities to collaborate or discuss her work. To get in touch with her, you can reach out via email at mowenyi@ruc.edu.cn.
+Wenyi Mo is a master student who is currently pursuing her degree in [Artificial Intelligence at Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/). Under the guidance and mentorship of A.P. [Bing Su](https://gsai.ruc.edu.cn/bingsu), Wenyi has shown great potential and interest in the areas of Conditional Image Generation, Diffusion Models, Prompt Engineering, and Multimodal Learning. She has also completed her bachelor's degree in the School of Computer Science and Engineering from [South China University of Technology](https://www.scut.edu.cn/new/) in 2022. Wenyi is passionate about her research and welcomes any opportunities to collaborate or discuss her work. To get in touch with her, you can reach out via email at mowenyi@ruc.edu.cn.
 
 Publications
 ------
