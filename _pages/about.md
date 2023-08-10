@@ -12,7 +12,8 @@ Wenyi Mo is a 1st year master's student who is currently pursuing her degree in 
 
 Publications
 ------
-### Conference Papers
+
+[//]: # (### Conference Papers)
 - EDIT: Efficient Text-Driven Real Image Manipulation with Diffusion Models. **Wenyi Mo**, Heng Zhang, Jiangmeng Li, Bing Su, and Ji-Rong Wen. In submission.
     
 
