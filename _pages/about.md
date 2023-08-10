@@ -19,7 +19,7 @@ Publications
 - Automatic Prompt Editing for Improved Text-to-Image Generation via Reinforcement Learning. **Wenyi Mo**, Bing Su, and Ji-Rong Wen. In submission.
 
 
-- Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. Jiangmeng Li*, **Wenyi Mo**, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
+- Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
 
 
 - MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning. Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. NeurIPS 2022.
