@@ -8,28 +8,50 @@ redirect_from:
   - /about.html
 ---
 
-Wenyi Mo is a master student who is currently pursuing her degree in [Artificial Intelligence at Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/). Under the guidance and mentorship of Assoc. Prof. [Bing Su](https://gsai.ruc.edu.cn/bingsu), Wenyi has shown great potential and interest in the areas of Conditional Image Generation, Diffusion Models, Prompt Engineering, and Multimodal Learning. She has also completed her bachelor's degree in the School of Computer Science and Engineering from [South China University of Technology](https://www.scut.edu.cn/new/) in 2022. Wenyi is passionate about her research and welcomes any opportunities to collaborate or discuss her work. To get in touch with her, you can reach out via email at mowenyi@ruc.edu.cn.
+I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/) (RUC), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in [South China University of Technology](https://www.scut.edu.cn/new/) in 2022. 
+
+My research interests mainly lie around controllable content generation and prompt learning.
+
+
+News
+------
+[02/27/2024] One paper about Text-to-Image generation accepted to CVPR 2024.
+
+[09/21/2022] One co-author paper accepted to NeurIPS 2022.
+
+
 
 Publications
 ------
 
 [//]: # (### Conference Papers)
-- EDIT: Efficient Text-Driven Real Image Manipulation with Diffusion Models. **Wenyi Mo**, Heng Zhang, Jiangmeng Li, Bing Su, and Ji-Rong Wen. In submission.
-    
 
-- Automatic Prompt Editing for Improved Text-to-Image Generation via Reinforcement Learning. **Wenyi Mo**, Bing Su, and Ji-Rong Wen. In submission.
+
+-  Dynamic Prompt Optimizing for Text-to-Image Generation. **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. (Preparing camera-ready version) / [Code](https://github.com/Mowenyii/PAE)
+
+
+- Revisiting the Vital Impact of Cross Attention on Image Editing. **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. In submission.
 
 
 - Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
+[Paper](https://arxiv.org/abs/2205.11100) / [Code](https://github.com/Mowenyii/CPKP)
 
 
 - MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning. Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. NeurIPS 2022.
+[Paper](https://arxiv.org/abs/2209.07902) / [Code](https://github.com/jiangmengli/metamask)
 
-
-Educations
+<!-- Educations
 ------
 - 2022.09 - now, Master, Artificial Intelligence, Renmin University of China.
-- 2018.09 - 2022.07, Bachelor, Computer Science, South China University of Technology.
+- 2018.09 - 2022.07, Bachelor, Computer Science, South China University of Technology. -->
+
+
+
+
+Awards
+------
+- Chinese National Scholarship. 2019
+
 
 [//]: # (Experiences)
 
