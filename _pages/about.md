@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/) (RUC), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in South China University of Technology in 2022. My research interests mainly lie around **controllable content generation** and prompt learning.
+I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in South China University of Technology. My research interests mainly lie around **controllable content generation** and prompt learning.
 
-I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested.
+> I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested.
 
 
 News
