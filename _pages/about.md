@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/) (RUC), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in [South China University of Technology](https://www.scut.edu.cn/new/) in 2022. 
+I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/) (RUC), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in South China University of Technology (SCUT) in 2022. 
 
-My research interests mainly lie around controllable content generation and prompt learning.
+My research interests mainly lie around **controllable content generation** and prompt learning.
 
 
 News
 ------
-[02/27/2024] One paper about Text-to-Image generation accepted to CVPR 2024.
+- [02/27/2024] ✨ One paper about Text-to-Image generation accepted to CVPR 2024.
 
-[09/21/2022] One co-author paper accepted to NeurIPS 2022.
+- [09/21/2022] 🎉 One co-author paper accepted to NeurIPS 2022.
 
 
 
