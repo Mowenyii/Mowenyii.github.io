@@ -12,6 +12,8 @@ I am currently a second-year master's student at [Renmin University of China](ht
 
 My research interests mainly lie around **controllable content generation** and prompt learning.
 
+I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested.
+
 
 News
 ------
