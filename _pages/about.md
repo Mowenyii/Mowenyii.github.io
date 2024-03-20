@@ -8,17 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/) (RUC), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in South China University of Technology (SCUT) in 2022. 
-
-My research interests mainly lie around **controllable content generation** and prompt learning.
+I am currently a second-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/) (RUC), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/bingsu). I completed my B.E. degree in South China University of Technology in 2022. My research interests mainly lie around **controllable content generation** and prompt learning.
 
 I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested.
 
 
 News
 ------
-- [02/27/2024] ✨ One paper about Text-to-Image generation accepted to CVPR 2024.
-
+- [02/27/2024] 🥰 One paper about Text-to-Image generation accepted to CVPR 2024.
 - [09/21/2022] 🎉 One co-author paper accepted to NeurIPS 2022.
 
 
@@ -29,7 +26,8 @@ Publications
 [//]: # (### Conference Papers)
 
 
--  Dynamic Prompt Optimizing for Text-to-Image Generation. **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. (Preparing camera-ready version) / [Code](https://github.com/Mowenyii/PAE)
+-  Dynamic Prompt Optimizing for Text-to-Image Generation. 
+  **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. (Preparing camera-ready version) / [Code](https://github.com/Mowenyii/PAE)
 
 
 - Revisiting the Vital Impact of Cross Attention on Image Editing. **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. In submission.
