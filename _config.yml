@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wenyi Mo"
+  name             : "Wenyi Mo (莫文仪)"
   avatar           : "me.png"
   bio              : "Master's student in Multimodal Learning."#"Your biography for the left-hand sidebar"
   location         : "RUC"
   employer         :
 #  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-#  googlescholar    : "http://yourfullgooglescholarurl.com"
+ googlescholar    : "https://scholar.google.com/citations?user=e3s9h8MAAAAJ&hl=en&oi=ao"
   email            : "mowenyi@ruc.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
