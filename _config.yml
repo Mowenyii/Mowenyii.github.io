@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wenyi Mo (莫文仪)"
+  name             : "Wenyi Mo"
   avatar           : "me.png"
   bio              : "Master's student in Multimodal Learning."#"Your biography for the left-hand sidebar"
   location         : "RUC"
