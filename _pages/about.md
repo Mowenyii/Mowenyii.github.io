@@ -27,7 +27,7 @@ Publications
 
 
 -  Dynamic Prompt Optimizing for Text-to-Image Generation. 
-  **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. [Paper](https://mowenyii.github.io/files/2024080481.pdf) / [Code](https://github.com/Mowenyii/PAE)
+  **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. [Paper](https://arxiv.org/abs/2404.04095) / [Code](https://github.com/Mowenyii/PAE)
 
 
 - Revisiting the Vital Impact of Cross Attention on Image Editing. **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. In submission.
