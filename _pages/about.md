@@ -46,6 +46,15 @@ Publications
 - 2018.09 - 2022.07, Bachelor, Computer Science, South China University of Technology. -->
 
 
+Experience
+------
+Bytedance, Research Intern (2024.1 - 2024.3)
+
+
+Academic Services
+------
+Reviewer : NeurIPS 2024
+
 
 
 Awards
