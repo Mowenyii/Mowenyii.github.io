@@ -48,12 +48,12 @@ Publications
 
 Experience
 ------
-Bytedance, Research Intern (2024.1 - 2024.3)
+- Bytedance, Research Intern (2024.1 - 2024.3)
 
 
 Academic Services
 ------
-Reviewer: NeurIPS 2024
+- Reviewer: NeurIPS 2024
 
 
 
