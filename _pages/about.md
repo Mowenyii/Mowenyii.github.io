@@ -59,7 +59,7 @@ Academic Services
 
 Awards
 ------
-- Chinese National Scholarship. 2019
+- 2019.12, Top 1%, Chinese National Scholarship. 
 
 
 [//]: # (Experiences)
