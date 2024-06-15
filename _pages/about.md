@@ -48,7 +48,7 @@ Publications
 
 Experience
 ------
-- 2024.1 - 2024.3, Research Intern, Bytedance AML, Shanghai.
+- 2024.01 - 2024.03, Research Intern, Bytedance AML, Shanghai.
 
 
 Academic Services
