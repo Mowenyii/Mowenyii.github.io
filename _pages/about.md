@@ -48,18 +48,18 @@ Publications
 
 Experience
 ------
-- Bytedance, Research Intern (2024.1 - 2024.3)
+- 2024.1 - 2024.3, Research Intern, Bytedance AML, Shanghai.
 
 
 Academic Services
 ------
-- Reviewer: NeurIPS 2024
+- Reviewer: NeurIPS 2024.
 
 
 
 Awards
 ------
-- 2019.12, Top 1%, Chinese National Scholarship. 
+- 2019.12, **Top 1%**, Chinese National Scholarship. 
 
 
 [//]: # (Experiences)
