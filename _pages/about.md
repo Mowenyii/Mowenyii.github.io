@@ -35,7 +35,7 @@ Publications
 ------
 
 ### Revisiting the Vital Impact of Cross Attention on Image Editing. 
-**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. In submission.
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen. In submission.
 
 ------
 
