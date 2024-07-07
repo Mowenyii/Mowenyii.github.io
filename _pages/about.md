@@ -26,19 +26,24 @@ Publications
 [//]: # (### Conference Papers)
 
 
--  Dynamic Prompt Optimizing for Text-to-Image Generation. 
-  **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. [Paper](https://arxiv.org/abs/2404.04095) / [Code](https://github.com/Mowenyii/PAE)
+### Dynamic Prompt Optimizing for Text-to-Image Generation. 
+
+  **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. 
+  [[Paper]](https://arxiv.org/abs/2404.04095) / [[Code]](https://github.com/Mowenyii/PAE)
 
 
-- Revisiting the Vital Impact of Cross Attention on Image Editing. **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. In submission.
+### Revisiting the Vital Impact of Cross Attention on Image Editing. 
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. In submission.
 
 
-- Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
-[Paper](https://arxiv.org/abs/2205.11100) / [Code](https://github.com/Mowenyii/CPKP)
+### Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. 
+Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
+[[Paper]](https://arxiv.org/abs/2205.11100) / [[Code]](https://github.com/Mowenyii/CPKP)
 
 
-- MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning. Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. NeurIPS 2022.
-[Paper](https://arxiv.org/abs/2209.07902) / [Code](https://github.com/jiangmengli/metamask)
+### MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning. 
+Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. NeurIPS 2022.
+[[Paper]](https://arxiv.org/abs/2209.07902) / [[Code]](https://github.com/jiangmengli/metamask)
 
 <!-- Educations
 ------
