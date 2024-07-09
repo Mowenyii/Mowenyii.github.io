@@ -31,6 +31,7 @@ Publications
   **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang. CVPR 2024. 
 
   <!-- [[Paper]](https://arxiv.org/abs/2404.04095) / [[Code]](https://github.com/Mowenyii/PAE) -->
+
 <a href='https://arxiv.org/abs/2404.04095'><img src='https://img.shields.io/badge/ArXiv-2404.04095-red'></a> 
 [![GitHub](https://img.shields.io/github/stars/Mowenyii/PAE?style=social)](https://github.com/Mowenyii/PAE)
 
@@ -44,18 +45,20 @@ Publications
 ### Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt. 
 Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. In submission.
 
-<!-- [[Paper]](https://arxiv.org/abs/2205.11100) / [[Code]](https://github.com/Mowenyii/CPKP) -->
-<a href='https://arxiv.org/abs/2205.11100'><img src='https://img.shields.io/badge/ArXiv-2205.11100-red'></a> 
-[![GitHub](https://img.shields.io/github/stars/Mowenyii/CPKP?style=social)](https://github.com/Mowenyii/CPKP)
+[[Paper]](https://arxiv.org/abs/2205.11100) / [[Code]](https://github.com/Mowenyii/CPKP)
+
+<!-- <a href='https://arxiv.org/abs/2205.11100'><img src='https://img.shields.io/badge/ArXiv-2205.11100-red'></a> 
+[![GitHub](https://img.shields.io/github/stars/Mowenyii/CPKP?style=social)](https://github.com/Mowenyii/CPKP) -->
 
 ------
 
 ### MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning. 
 Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. NeurIPS 2022.
 
-<!-- [[Paper]](https://arxiv.org/abs/2209.07902) / [[Code]](https://github.com/jiangmengli/metamask) -->
-<a href='https://arxiv.org/abs/2209.07902'><img src='https://img.shields.io/badge/ArXiv-2209.07902-red'></a> 
-[![GitHub](https://img.shields.io/github/stars/jiangmengli/metamask?style=social)](https://github.com/jiangmengli/metamask)
+[[Paper]](https://arxiv.org/abs/2209.07902) / [[Code]](https://github.com/jiangmengli/metamask)
+
+<!-- <a href='https://arxiv.org/abs/2209.07902'><img src='https://img.shields.io/badge/ArXiv-2209.07902-red'></a> 
+[![GitHub](https://img.shields.io/github/stars/jiangmengli/metamask?style=social)](https://github.com/jiangmengli/metamask) -->
 
 <!-- Educations
 ------
