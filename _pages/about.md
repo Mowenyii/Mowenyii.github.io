@@ -15,8 +15,8 @@ I am currently a second-year master's student at [Renmin University of China](ht
 
 News
 ------
-- [02/27/2024] 🥰 One paper about Text-to-Image generation accepted to CVPR 2024.
-- [09/21/2022] 🎉 One co-author paper accepted to NeurIPS 2022.
+- [02/27/2024] 🥰 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
+- [09/21/2022] 🎉 One co-authored paper accepted to NeurIPS 2022.
 
 
 
