@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wenyi Mo"
   avatar           : "images/me.jpg"
-  bio              : ""
+  bio              : "Focus on Generative Models"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
