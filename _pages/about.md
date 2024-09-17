@@ -68,7 +68,7 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 # 🎖 Honors and Awards
 - *2023.12*, Renmin University of China Scholarship. 
 - *2021.12*, China National Encouragement Scholarship, (Top 3%). 
-- *2019.12*, Chinese National Scholarship, (Top 1%). 
+- *2019.12*, China National Scholarship, (Top 1%). 
 
 
 # 👩‍💻 Academic Services
@@ -85,6 +85,6 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 - *2024.01 - 2024.03*, Bytedance AML, Shanghai, China.
 - *2022.01 - 2022.03*, Jingdong Exploration Research Institute, Beijing, China.
 
-# 📍 Visitor Map
+# 🚌 Visitor Map
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=350&t=tt&d=CCd_LMjpOvK7hx6Be_HZm5Kn0d2E9qZ8g1hJHBK5ePU&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 
