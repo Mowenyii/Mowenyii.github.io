@@ -58,7 +58,7 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 
 
-- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://arxiv.org/abs/2209.07902), Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
+- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
 
 
 
