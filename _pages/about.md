@@ -25,6 +25,7 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 🔥 News
+- *2024.10*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
 - *2024.02*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
 - *2022.09*: 🎉 One co-authored paper accepted to NeurIPS 2022.
 
