@@ -49,7 +49,8 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 </div>
 </div>
 
-- [Revisiting the Vital Impact of Cross Attention on Image Editing], **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen. \| ``In submission`` 
+- [Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing], **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen. 
+<span style="color:red">(WACV 2025)</span>
 
 
 - [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. \| ``Arxiv 2024`` 
