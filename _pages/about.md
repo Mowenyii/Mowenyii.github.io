@@ -67,7 +67,7 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 🎖 Honors and Awards
-- *2023.12*, Renmin University of China Scholarship. 
+- *2024.10*, Renmin University of China Scholarship. 
 - *2021.12*, China National Encouragement Scholarship, (Top 3%). 
 - *2019.12*, China National Scholarship, (Top 1%). 
 
