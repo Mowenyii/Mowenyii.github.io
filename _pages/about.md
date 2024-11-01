@@ -50,8 +50,11 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 - [Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing], **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen. \| <span style="color:red">(WACV 2025)</span>
-
+</div>
+</div>
 
 - [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. \| ``Arxiv 2024`` 
 
