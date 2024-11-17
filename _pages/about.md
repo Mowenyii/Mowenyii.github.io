@@ -73,6 +73,12 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 
 
 
+# 👩‍🏫 Talk
+
+[Jun, 2024] Poster Presentation 
+
+@ CVPR Seattle, 2024
+
 
 
 # 🎖 Honors and Awards
