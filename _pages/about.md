@@ -75,11 +75,7 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 
 # 👩‍🏫 Talk
 
-[Jun, 2024] Poster Presentation 
-
-@ CVPR Seattle, 2024
-
-
+- *2024.06*, Poster Presentation @ CVPR Seattle. 
 
 # 🎖 Honors and Awards
 - *2024.10*, Renmin University of China Scholarship. 
