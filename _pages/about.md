@@ -57,7 +57,7 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen. 
 
-<span style="color:red">(WACV 2025)</span>
+<span style="color:red">(WACV 2025)</span> [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps)
 
 </div>
 </div>
