@@ -62,7 +62,7 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 </div>
 </div>
 
-- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), **Wenyi Mo\***, Jiangmeng Li\*,  Wenwen Qiang, Bing Su, and Changwen Zheng. \| ``Arxiv 2024`` 
+- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. \| ``Arxiv 2024`` 
 
 
 
