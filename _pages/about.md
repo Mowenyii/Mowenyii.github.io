@@ -25,9 +25,10 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 🔥 News
-- *2024.10*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
-- *2024.02*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
-- *2022.09*: 🎉 One co-authored paper accepted to NeurIPS 2022.
+- *11.2024*: 🎉 Recognized as a top reviewer at NeurIPS 2024.
+- *10.2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
+- *02.2024*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
+- *09.2022*: 🎉 One co-authored paper accepted to NeurIPS 2022.
 
 
 
@@ -68,7 +69,7 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 
 
 
-- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li, Wenwen Qiang, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
+- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li*, Wenwen Qiang*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
 
 
 
