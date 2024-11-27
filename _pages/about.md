@@ -25,10 +25,10 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 🔥 News
-- *11.2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
-- *10.2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
-- *02.2024*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
-- *09.2022*: 🎉 One co-authored paper accepted to NeurIPS 2022.
+- *11/2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
+- *10/2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
+- *02/2024*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
+- *09/2022*: 🎉 One co-authored paper accepted to NeurIPS 2022.
 
 
 
@@ -76,12 +76,12 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 
 # 👩‍🏫 Invited Talks
 
-- *2024.06*, Poster Presentation @ CVPR Seattle. 
+- *06/2024*, Poster Presentation @ CVPR Seattle. 
 
 # 🎖 Honors and Awards
-- *2024.10*, Renmin University of China Scholarship. 
-- *2021.12*, China National Encouragement Scholarship, (Top 3%). 
-- *2019.12*, China National Scholarship, (Top 1%). 
+- *10/2024*, Renmin University of China Scholarship. 
+- *12/2021*, China National Encouragement Scholarship, (Top 3%). 
+- *12/2019*, China National Scholarship, (Top 1%). 
 
 
 # 👩‍💻 Academic Services
@@ -89,14 +89,14 @@ Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing
 
 
 # 📖 Educations
-- *2022.08 - 2025.06 (Expected)*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
-- *2018.08 - 2022.06*, Undergraduate, Department of Computer Science, South China University of Technology, Guangzhou.
+- *08/2022 - 06/2025 (Expected)*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
+- *08/2018 - 06/2022*, Undergraduate, Department of Computer Science, South China University of Technology, Guangzhou.
 
 
 
 # 💻 Internships
-- *2024.01 - 2024.03*, Bytedance AML, Shanghai, China.
-- *2022.01 - 2022.03*, Jingdong Exploration Research Institute, Beijing, China.
+- *01/2024 - 03/2024*, Bytedance AML, Shanghai, China.
+- *01/2022 - 03/2022*, Jingdong Exploration Research Institute, Beijing, China.
 
 <!-- # 🚌 Visitor Map -->
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=1nRIFNSwVclwApwJhz16pZZAjy8G47awU92Eq0b1mQ8"></script>
