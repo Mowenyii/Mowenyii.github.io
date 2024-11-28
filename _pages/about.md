@@ -56,7 +56,7 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 [Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://mowenyii.github.io/files/WACV_2025_wenyi_Arxiv.pdf)
 
-**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen. 
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
 
 <span style="color:red">(WACV 2025)</span> [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps)
 
@@ -69,19 +69,19 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 
 Adaptive Preference Learning for Personalized Image Generation with Vision-Language Understanding
 
-**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Jieqiong Liu, Bing Su, Biye Li, Ji-Rong Wen. 
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Jieqiong Liu, Bing Su<sup>✉</sup>, Biye Li, Ji-Rong Wen. 
 
 </div>
 </div>
 
 
-- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. \| ``Arxiv 2024`` 
+- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su<sup>✉</sup>, and Changwen Zheng. \| ``Arxiv 2024`` 
 
 
 
 
 
-- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li*, Wenwen Qiang*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
+- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li*, Wenwen Qiang*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su<sup>✉</sup>, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
 
 
 
