@@ -64,7 +64,7 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Adaptive Preference Learning for Personalized Image Generation with Vision-Language Understanding
