@@ -63,6 +63,18 @@ I am currently a master's student at [Renmin University of China](http://ai.ruc.
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Adaptive Preference Learning for Personalized Image Generation with Vision-Language Understanding
+
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Jieqiong Liu, Bing Su, Biye Li, Ji-Rong Wen. 
+
+</div>
+</div>
+
+
 - [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su, and Changwen Zheng. \| ``Arxiv 2024`` 
 
 
