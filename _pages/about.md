@@ -75,13 +75,13 @@ Adaptive Preference Learning for Personalized Image Generation with Vision-Langu
 </div>
 
 
-- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su<sup>✉</sup>, and Changwen Zheng. \| ``Arxiv 2024`` 
+- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su<sup>✉</sup>, and Changwen Zheng. (*Joint First Authors) \| ``Arxiv 2024`` 
 
 
 
 
 
-- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li*, Wenwen Qiang*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su<sup>✉</sup>, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
+- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li\*, Wenwen Qiang\*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su<sup>✉</sup>, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
 
 
 
