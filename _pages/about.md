@@ -58,7 +58,8 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
 
-<span style="color:red">(WACV 2025)</span> [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps)
+<span style="color:red">(WACV 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
+
 
 </div>
 </div>
@@ -67,7 +68,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Adaptive Preference Learning for Personalized Image Generation with Vision-Language Understanding
+[Adaptive Preference Learning for Personalized Image Generation with Vision-Language Understanding](https://mowenyii.github.io/files/25_wenyi_arxiv.pdf)
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Jieqiong Liu, Bing Su<sup>✉</sup>, Biye Li, Ji-Rong Wen. 
 
