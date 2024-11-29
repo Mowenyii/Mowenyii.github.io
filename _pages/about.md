@@ -51,18 +51,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2025</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://mowenyii.github.io/files/WACV_2025_wenyi_Arxiv.pdf)
-
-**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
-
-<span style="color:red">(WACV 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
-
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
@@ -75,6 +64,18 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2025</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://mowenyii.github.io/files/WACV_2025_wenyi_Arxiv.pdf)
+
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
+
+<span style="color:red">(WACV 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
+
+
+</div>
+</div>
 
 - [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su<sup>✉</sup>, and Changwen Zheng. (*Joint First Authors) \| ``Arxiv 2024`` 
 
