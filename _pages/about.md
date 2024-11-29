@@ -108,6 +108,7 @@ Adaptive Preference Learning for Personalized Image Generation with Vision-Langu
 
 # 💻 Internships
 - *01/2024 - 03/2024*, Bytedance AML, Shanghai, China.
+- *09/2023 - 01/2024*, Du Xiaoman Technology, Beijing, China.
 - *01/2022 - 03/2022*, Jingdong Exploration Research Institute, Beijing, China.
 
 <!-- # 🚌 Visitor Map -->
