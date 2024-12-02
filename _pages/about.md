@@ -99,8 +99,8 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 👩‍💻 Academic Services
-- Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025.
-
+- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025.
+<!-- - Journal Reviewer: Scientific Reports -->
 
 # 📖 Educations
 - *08/2022 - 06/2025 (Expected)*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
