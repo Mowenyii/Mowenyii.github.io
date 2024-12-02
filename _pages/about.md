@@ -67,7 +67,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2025</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://mowenyii.github.io/files/WACV_2025_wenyi_Arxiv.pdf)
+[Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://arxiv.org/abs/2411.19652)
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
 
