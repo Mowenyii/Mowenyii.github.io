@@ -99,7 +99,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025.
+- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025, ICML 2025.
 <!-- - Journal Reviewer: Scientific Reports -->
 
 # 📖 Educations
