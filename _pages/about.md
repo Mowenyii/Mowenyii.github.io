@@ -77,15 +77,32 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 </div>
 </div>
 
-- [Supporting Vision-Language Model Inference with Causality-pruning Knowledge Prompt](https://arxiv.org/abs/2205.11100), Jiangmeng Li\*, **Wenyi Mo\***, Wenwen Qiang, Bing Su<sup>✉</sup>, and Changwen Zheng. (*Joint First Authors) \| ``Arxiv 2024`` 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/nn25_CPKP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Supporting Vision-Language Model Few-Shot Inference with Confounder-Prunedknowledge Prompt](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4909583)
+
+Jiangmeng Li\*, **Wenyi Mo\***, Fei Song\*, Chuxiong Sun, Wenwen Qiang, Bing Su, and Changwen Zheng. 
+
+<span style="color:red">(Neural Networks 2025)</span>  [![](https://img.shields.io/badge/GitHub-lightgrey?logo=github&style=flat-square)](https://github.com/Mowenyii/CPKP)
+
+
+</div>
+</div>
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2022</div><img src='images/neurips22.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf)
 
-- [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf), Jiangmeng Li\*, Wenwen Qiang\*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su<sup>✉</sup>, and Hui Xiong. \| <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
+ Jiangmeng Li\*, Wenwen Qiang\*, Yanan Zhang, **Wenyi Mo**, Changwen Zheng, Bing Su<sup>✉</sup>, and Hui Xiong. 
+ 
+  <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
 
-
+</div>
+</div>
 
 
 # 👩‍🏫 Invited Talks
@@ -99,7 +116,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025, ICML 2025.
+- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025, CVPR 2025, ICML 2025.
 <!-- - Journal Reviewer: Scientific Reports -->
 
 # 📖 Educations
