@@ -84,7 +84,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 Jiangmeng Li\*, **Wenyi Mo\***, Fei Song\*, Chuxiong Sun, Wenwen Qiang, Bing Su, and Changwen Zheng. 
 
-<span style="color:red">(Neural Networks 2025)</span>  [![](https://img.shields.io/badge/GitHub-lightgrey?logo=github&style=flat-square)](https://github.com/Mowenyii/CPKP)
+<span style="color:red">(Neural Networks 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/CPKP?style=social&label=Code+Stars)](https://github.com/Mowenyii/CPKP) 
 
 
 </div>
