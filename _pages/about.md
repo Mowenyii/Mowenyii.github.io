@@ -25,6 +25,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 
 # 🔥 News
+- *01/2025*: 🎉 One co-first-authored paper about vision-language models accepted to Neural Networks 2025.
 - *11/2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
 - *10/2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
 - *02/2024*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
