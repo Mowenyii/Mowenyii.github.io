@@ -81,7 +81,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/nn25_CPKP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Supporting Vision-Language Model Few-Shot Inference with Confounder-Prunedknowledge Prompt](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4909583)
+[Supporting Vision-Language Model Few-Shot Inference with Confounder-Pruned knowledge Prompt](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4909583)
 
 Jiangmeng Li\*, **Wenyi Mo\***, Fei Song\*, Chuxiong Sun, Wenwen Qiang, Bing Su, and Changwen Zheng. 
 
