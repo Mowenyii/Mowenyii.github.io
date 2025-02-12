@@ -19,7 +19,7 @@ redirect_from:
 
 I'm a third-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/english/bingsu). I earned my B.E. from South China University of Technology. My research focuses on multimodal learning, particularly enhancing user alignment and image controllability in generative models. Recently, I’ve worked on autoregressive and diffusion models, exploring applications like text-to-image generation and preference alignment. You can view my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
-> I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested.
+<!-- > I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested. -->
 
 
 
