@@ -55,7 +55,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [User-Specific Preference Prediction on Generated Images](https://mowenyii.github.io/files/25_wenyi_arxiv.pdf)
@@ -63,7 +63,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Jieqiong Liu, Bing Su<sup>✉</sup>, Biye Li, Ji-Rong Wen. 
 
 </div>
-</div>
+</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2025</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
