@@ -83,7 +83,7 @@ I'm a third-year master's student at [Renmin University of China](http://ai.ruc.
 
 [Supporting Vision-Language Model Few-Shot Inference with Confounder-Pruned knowledge Prompt](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4909583)
 
-Jiangmeng Li\*, **Wenyi Mo\***, Fei Song\*, Chuxiong Sun, Wenwen Qiang, Bing Su, and Changwen Zheng. 
+Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and Changwen Zheng. 
 
 <span style="color:red">(Neural Networks 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/CPKP?style=social&label=Code+Stars)](https://github.com/Mowenyii/CPKP) 
 
