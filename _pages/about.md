@@ -17,15 +17,23 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a third-year master's student at [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/english/bingsu). I earned my B.E. from South China University of Technology. My research focuses on multimodal learning, particularly enhancing user alignment and image controllability in generative models. Recently, I’ve worked on autoregressive and diffusion models, exploring applications like text-to-image generation and preference alignment. You can view my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
+<!-- I'm a in-coming phd student at Rutgers University, where I am advised by Prof. [Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/) I got master degree at [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), where I am advised by [Bing Su](https://gsai.ruc.edu.cn/english/bingsu). I earned my B.E. from South China University of Technology. My research focuses on multimodal learning, particularly enhancing user alignment and image controllability in generative models. Recently, I’ve worked on autoregressive and diffusion models, exploring applications like text-to-image generation and preference alignment. You can view my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf). -->
 
 <!-- > I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested. -->
 
 
 
+I am an incoming Ph.D. student at Rutgers University, where I will be advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu), and earned my B.E. from the South China University of Technology.
+My research interests lie in multimodal learning, with a focus on enhancing user alignment and image controllability in generative models. Recently, I’ve been working with autoregressive and diffusion models, particularly in the context of text-to-image generation and preference alignment.
+You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
+
+
+
+
 
 # 🔥 News
-- *01/2025*: 🎉 One co-first-authored paper about vision-language models accepted to Neural Networks 2025.
+- *06/2025*: 🎉 One co-authored paper about Text-to-Image generation accepted to ICCV 2025.
+- *01/2025*: 🎉 One co-authored paper about vision-language models accepted to Neural Networks 2025.
 - *11/2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
 - *10/2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
 - *02/2024*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
@@ -118,7 +126,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025, CVPR 2025, ICML 2025, NeurIPS 2025.
+- Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025, CVPR 2025, ICML 2025, ICCV 2025, NeurIPS 2025.
 <!-- - Journal Reviewer: Scientific Reports -->
 
 # 📖 Educations
