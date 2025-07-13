@@ -21,9 +21,9 @@ redirect_from:
 
 <!-- > I am always open for research discussions and collaborations :). Also, I am looking for a potential Ph.D. position enrolling in Fall 2025. Welcome to reach out to me if interested. -->
 
+<!-- , and earned my B.E. from the South China University of Technology -->
 
-
-I am an incoming Ph.D. student at Rutgers University, where I will be advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu), and earned my B.E. from the South China University of Technology.
+I am an incoming Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I will be advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
 My research interests lie in multimodal learning, with a focus on enhancing user alignment and image controllability in generative models. Recently, I’ve been working with autoregressive and diffusion models, particularly in the context of text-to-image generation and preference alignment.
 You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
@@ -129,14 +129,14 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 - Conference Reviewer: NeurIPS 2024, ICLR 2025, WACV 2025, AISTATS 2025, CVPR 2025, ICML 2025, ICCV 2025, NeurIPS 2025.
 <!-- - Journal Reviewer: Scientific Reports -->
 
-# 📖 Educations
-- *08/2022 - 06/2025 (Expected)*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
-- *08/2018 - 06/2022*, Undergraduate, Department of Computer Science, South China University of Technology, Guangzhou.
+<!-- # 📖 Educations
+- *08/2022 - 06/2025*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
+- *08/2018 - 06/2022*, Undergraduate, Department of Computer Science, South China University of Technology, Guangzhou. -->
 
 
 
 # 💻 Internships
-- *01/2024 - 03/2024*, Bytedance AML, Shanghai, China.
+- *01/2024 - 03/2024*, Bytedance Seed, Shanghai, China.
 - *09/2023 - 01/2024*, Du Xiaoman Technology, Beijing, China.
 - *01/2022 - 03/2022*, Jingdong Exploration Research Institute, Beijing, China.
 
