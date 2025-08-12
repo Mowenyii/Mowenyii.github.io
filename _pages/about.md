@@ -32,7 +32,7 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 
 # 🔥 News
-- *06/2025*: 🎉 One co-authored paper about Text-to-Image generation accepted to ICCV 2025.
+- *06/2025*: 🎉 [One co-authored paper](https://github.com/BarretBa/ICTHP) about Text-to-Image generation accepted to ICCV 2025.
 - *01/2025*: 🎉 One co-authored paper about vision-language models accepted to Neural Networks 2025.
 - *11/2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
 - *10/2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
