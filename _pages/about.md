@@ -23,7 +23,7 @@ redirect_from:
 
 <!-- , and earned my B.E. from the South China University of Technology -->
 
-I am a first-year Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I will be advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
+I am a first-year Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I am advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
 My research interests lie in multimodal learning, with a focus on enhancing user alignment and image controllability in generative models. Recently, I’ve been working with autoregressive and diffusion models, particularly in the context of text-to-image generation and preference alignment.
 <!-- You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf). -->
 
