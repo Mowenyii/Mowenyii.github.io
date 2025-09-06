@@ -23,7 +23,7 @@ redirect_from:
 
 <!-- , and earned my B.E. from the South China University of Technology -->
 
-I am an incoming Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I will be advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
+I am a first-year Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I will be advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
 My research interests lie in multimodal learning, with a focus on enhancing user alignment and image controllability in generative models. Recently, I’ve been working with autoregressive and diffusion models, particularly in the context of text-to-image generation and preference alignment.
 <!-- You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf). -->
 
@@ -62,6 +62,19 @@ My research interests lie in multimodal learning, with a focus on enhancing user
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/nn25_CPKP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Reward Models for High-quality Image Generation: Beyond Text-Image Alignment](https://arxiv.org/abs/2507.19002)
+
+Ying Ba, Tianyu Zhang, Yalong Bai, **Wenyi Mo**, Tao Liang, Bing Su, Ji-Rong Wen. 
+
+<span style="color:red">(ICCV 2025)</span>  [![](https://img.shields.io/github/stars/BarretBa/ICTHP?style=social&label=Code+Stars)](https://github.com/BarretBa/ICTHP) 
+
+
+</div>
+</div>
+
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/under_review.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -86,7 +99,7 @@ My research interests lie in multimodal learning, with a focus on enhancing user
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/nn25_CPKP.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/nn25_CPKP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Supporting Vision-Language Model Few-Shot Inference with Confounder-Pruned knowledge Prompt](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4909583)
@@ -97,7 +110,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 </div>
-</div>
+</div> -->
 
 
 
