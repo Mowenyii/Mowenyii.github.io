@@ -62,7 +62,7 @@ My research interests lie in multimodal learning, with a focus on enhancing user
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/ICCV25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/ICCV25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Reward Models for High-quality Image Generation: Beyond Text-Image Alignment](https://arxiv.org/abs/2507.19002)
