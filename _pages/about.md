@@ -128,8 +128,8 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 👩‍🏫 Invited Talks
-
-- *06/2024*, Poster Presentation @ CVPR Seattle. 
+- *10/2025*, Poster Presentation @ ICCV Honolulu, Hawaiʻi. 
+- *06/2024*, Poster Presentation @ CVPR Seattle, Washington. 
 
 # 🎖 Honors and Awards
 - *10/2024*, Merit Graduated Student of Renmin University of China.
@@ -139,7 +139,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS (2024, 2025), ICLR (2025, 2026), AISTATS (2025, 2026), WACV 2025, CVPR 2025, ICML 2025, ICCV 2025, AAAI 2026.
+- Conference Reviewer: NeurIPS (2024, 2025), ICLR (2025, 2026), AISTATS (2025, 2026), CVPR (2025, 2026), WACV 2025,  ICML 2025, ICCV 2025, AAAI 2026.
 <!-- - Journal Reviewer: Scientific Reports -->
 
 <!-- # 📖 Educations
@@ -149,6 +149,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 💻 Internships
+- *03/2024 - 09/2025*, In2X, Beijing, China.
 - *01/2024 - 03/2024*, Bytedance Seed, Shanghai, China.
 - *09/2023 - 01/2024*, Du Xiaoman Technology, Beijing, China.
 - *01/2022 - 03/2022*, Jingdong Exploration Research Institute, Beijing, China.
