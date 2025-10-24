@@ -218,5 +218,5 @@ Here are some photos from conferences and academic events I've attended:
 
 <script src="/assets/js/gallery.js"></script>
 
-# 🚌 Visitor Map
+# 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=1nRIFNSwVclwApwJhz16pZZAjy8G47awU92Eq0b1mQ8"></script>
