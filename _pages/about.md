@@ -208,5 +208,13 @@ Here are some photos from conferences and academic events I've attended:
 
 <script src="/assets/js/gallery.js"></script>
 
-<!-- # 🚌 Visitor Map -->
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=1nRIFNSwVclwApwJhz16pZZAjy8G47awU92Eq0b1mQ8"></script>
+<!-- # 🚌 Visitor Map
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=1nRIFNSwVclwApwJhz16pZZAjy8G47awU92Eq0b1mQ8"></script> -->
+
+
+### 🎨 Hobbies
+
+Outside research, I enjoy exploring art, film, and music as ways to understand human creativity from different perspectives. I love hiking in places such as [Ross Mountain](https://www.oregonhikers.org/field_guide/Ross_Mountain), [Taihang Mountain](https://en.wikipedia.org/wiki/Taihang_Mountains), [the Great Wall](https://en.wikipedia.org/wiki/Great_Wall_of_China), and [Diamond Head State Monument](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/).
+Some of my favorite films include [*Coraline*](https://www.imdb.com/title/tt0327597/) for its enchanting stop-motion artistry and [*The Shining*](https://www.imdb.com/title/tt0081505/) for its psychological depth.
+Musically, I often listen to [David Tao](https://en.wikipedia.org/wiki/David_Tao), [Utada Hikaru](https://en.wikipedia.org/wiki/Utada_Hikaru), [Erik Satie](https://en.wikipedia.org/wiki/Erik_Satie), and [Ryuichi Sakamoto](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto).
+In visual arts, I particularly appreciate the works of [Suzanne Valadon](https://en.wikipedia.org/wiki/Suzanne_Valadon), [Edward Hopper](https://en.wikipedia.org/wiki/Edward_Hopper), [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh), and [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio).
