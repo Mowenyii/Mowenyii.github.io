@@ -179,7 +179,7 @@
 
 @media (max-width: 480px) {
   .gallery-item img {
-    height: 200px; /* 250px * 0.8 = 200px */
+    height: 170px; /* 250px * 0.8 = 200px */
   }
   
   .gallery-caption {

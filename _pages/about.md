@@ -161,7 +161,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 Outside research, I enjoy exploring art, film, and music as ways to understand human creativity from different perspectives. I love hiking in places such as [Taihang Mountain](https://en.wikipedia.org/wiki/Taihang_Mountains) (Henan, China), [the Great Wall](https://en.wikipedia.org/wiki/Great_Wall_of_China) (Beijing, China), [Enshi Grand Canyon](https://en.wikipedia.org/wiki/Enshi_Grand_Canyon) (Hubei, China), and [Diamond Head State Monument](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) (Honolulu, Hawaii).
 Some of my favorite films include [*Coraline*](https://www.imdb.com/title/tt0327597/) for its enchanting stop-motion artistry and [*The Shining*](https://www.imdb.com/title/tt0081505/) for its psychological depth.
-Musically, I often listen to [David Tao](https://en.wikipedia.org/wiki/David_Tao), [Utada Hikaru](https://en.wikipedia.org/wiki/Utada_Hikaru), [Erik Satie](https://en.wikipedia.org/wiki/Erik_Satie), and [Ryuichi Sakamoto](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto).
+Musically, I often listen to [David Tao](https://en.wikipedia.org/wiki/David_Tao), [Utada Hikaru](https://en.wikipedia.org/wiki/Utada_Hikaru), [Erik Satie](https://historia-arte.com/obras/un-bohemio-erik-satie-en-su-estudio), and [Ryuichi Sakamoto](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto).
 In visual arts, I particularly appreciate the works of [Suzanne Valadon](https://en.wikipedia.org/wiki/Suzanne_Valadon), [Edward Hopper](https://en.wikipedia.org/wiki/Edward_Hopper), [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh), and [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio).
 
 
