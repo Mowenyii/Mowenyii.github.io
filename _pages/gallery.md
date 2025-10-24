@@ -32,28 +32,25 @@ Here are some photos from conferences and academic events I've attended:
           <p>Honolulu, Hawaiʻi - ICCV 2025</p>
         </div>
       </div>
-      
-      <!-- 个人照片 -->
+      <!-- 个人照片
       <div class="gallery-item">
         <img src="images/me.jpg" alt="Personal Photo" />
         <div class="gallery-caption">
           <h3>学术研究</h3>
           <p>专注于生成模型和多模态学习研究</p>
         </div>
-      </div>
+      </div> -->
     </div>
-    
     <!-- 导航按钮 -->
     <button class="gallery-nav prev" onclick="changeSlide(-1)">❮</button>
     <button class="gallery-nav next" onclick="changeSlide(1)">❯</button>
-    
     <!-- 指示器 -->
     <div class="gallery-indicators">
       <span class="indicator active" onclick="currentSlide(1)"></span>
       <span class="indicator" onclick="currentSlide(2)"></span>
-      <span class="indicator" onclick="currentSlide(3)"></span>
+      <!-- <span class="indicator" onclick="currentSlide(3)"></span>
       <span class="indicator" onclick="currentSlide(4)"></span>
-      <span class="indicator" onclick="currentSlide(5)"></span>
+      <span class="indicator" onclick="currentSlide(5)"></span> -->
     </div>
   </div>
 </div>
