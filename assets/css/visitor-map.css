@@ -1,0 +1,42 @@
+/* Visitor Map 样式 */
+.visitor-map {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.visitor-map h4 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.visitor-map #clustrmaps {
+  display: block;
+  margin: 0 auto;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .visitor-map {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+  }
+  
+  .visitor-map h4 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* 确保地图容器正确显示 */
+.visitor-map iframe,
+.visitor-map object,
+.visitor-map embed {
+  max-width: 100%;
+  height: auto;
+}
