@@ -139,8 +139,8 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS (2024, 2025), ICLR (2025, 2026), AISTATS (2025, 2026), CVPR (2025, 2026), WACV 2025,  ICML 2025, ICCV 2025, AAAI 2026.
-<!-- - Journal Reviewer: Scientific Reports -->
+- Conference Reviewer: NeurIPS (2024, 2025), ICLR (2025, 2026), AISTATS (2025, 2026), CVPR (2024, 2025, 2026), WACV 2025,  ICML 2025, ICCV 2025, AAAI 2026.
+- Journal Reviewer: International Journal of Image and Graphics, Scientific Reports.
 
 <!-- # 📖 Educations
 - *08/2022 - 06/2025*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
@@ -162,7 +162,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 Outside research, I enjoy exploring art, film, and music as ways to understand human creativity from different perspectives. I love hiking in places such as [Taihang Mountain](https://en.wikipedia.org/wiki/Taihang_Mountains) (Henan, China), [the Great Wall](https://en.wikipedia.org/wiki/Great_Wall_of_China) (Beijing, China), [Enshi Grand Canyon](https://en.wikipedia.org/wiki/Enshi_Grand_Canyon) (Hubei, China), and [Diamond Head State Monument](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) (Honolulu, Hawaii).
 Some of my favorite films include [*Coraline*](https://www.imdb.com/title/tt0327597/) for its enchanting stop-motion artistry and [*The Shining*](https://www.imdb.com/title/tt0081505/) for its psychological depth.
 Musically, I often listen to [David Tao](https://en.wikipedia.org/wiki/David_Tao), [Utada Hikaru](https://en.wikipedia.org/wiki/Utada_Hikaru), [Erik Satie](https://historia-arte.com/obras/un-bohemio-erik-satie-en-su-estudio), and [Ryuichi Sakamoto](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto).
-In visual arts, I particularly appreciate the works of [Suzanne Valadon](https://en.wikipedia.org/wiki/Suzanne_Valadon), [Edward Hopper](https://en.wikipedia.org/wiki/Edward_Hopper), [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh), and [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio).
+In visual arts, I particularly appreciate the works of [Suzanne Valadon](https://en.wikipedia.org/wiki/Suzanne_Valadon), [Edward Hopper](https://historia-arte.com/artistas/edward-hopper), [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh), and [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio).
 
 
 <link rel="stylesheet" href="/assets/css/gallery.css">
