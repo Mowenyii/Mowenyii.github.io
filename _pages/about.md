@@ -139,7 +139,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS (2024, 2025), ICLR (2025, 2026), AISTATS (2025, 2026), CVPR (2024, 2025, 2026), WACV 2025,  ICML 2025, ICCV 2025, AAAI 2026.
+- Conference Reviewer: NeurIPS (2024, 2025), ICLR (2025, 2026), AISTATS (2025, 2026), CVPR (2025, 2026), WACV 2025,  ICML 2025, ICCV 2025, AAAI 2026.
 - Journal Reviewer: International Journal of Image and Graphics, Scientific Reports.
 
 <!-- # 📖 Educations
