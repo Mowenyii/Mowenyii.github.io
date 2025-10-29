@@ -132,10 +132,11 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 - *06/2024*, Poster Presentation @ CVPR Seattle, Washington. 
 
 # 🎖 Honors and Awards
-- *10/2024*, Merit Graduated Student of Renmin University of China.
-- *10/2024*, Renmin University of China Scholarship. 
-- *12/2021*, China National Encouragement Scholarship, (Top 3%). 
-- *12/2019*, China National Scholarship, (Top 1%). 
+- ICCV 2025 Travel Support Award
+- Merit Graduated Student of Renmin University of China.
+- Renmin University of China Scholarship. 
+- China National Encouragement Scholarship, (Top 3%). 
+- China National Scholarship, (Top 1%). 
 
 
 # 👩‍💻 Academic Services
