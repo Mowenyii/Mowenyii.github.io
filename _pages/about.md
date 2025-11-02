@@ -133,6 +133,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 # 🎖 Honors and Awards
 - ICCV 2025 Travel Support Award
+- Top Reviewer at NeurIPS 2024
 - Merit Graduated Student of Renmin University of China.
 - Renmin University of China Scholarship. 
 - China National Encouragement Scholarship, (Top 3%). 
