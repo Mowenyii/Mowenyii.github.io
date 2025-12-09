@@ -142,7 +142,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 # 👩‍💻 Academic Services
 - Conference Reviewer: NeurIPS ([2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers), [2025](https://neurips.cc/Conferences/2025/ProgramCommittee)), ICLR ([2025](https://iclr.cc/Conferences/2025/ProgramCommittee), 2026), AISTATS (2025, 2026), CVPR ([2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee), 2026), [WACV 2025](https://csdl-downloads.ieeecomputer.org/proceedings/wacv/2025/1083/00/108300z185.pdf?Expires=1761594373&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jc2RsLWRvd25sb2Fkcy5pZWVlY29tcHV0ZXIub3JnL3Byb2NlZWRpbmdzL3dhY3YvMjAyNS8xMDgzLzAwLzEwODMwMHoxODUucGRmIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYxNTk0MzczfX19XX0_&Signature=xWEIEU8VRX6B9EVfW2msdOVeJCor35fOWCReEAQgmqinXwyXbWapMGLXmzOslDvW~eHi93q5wfZOjQcb6gm0EyuwAsw-RA5qaQD57syMdQFwd6xYmsN7mt-REJZquBS45c670Ldu3FNFwAOR92xqPyIdRLuObZ~70pwQjEFNkD2SEmDCijJCh9ZVu5fDvh72eca5ax9TbUMj1LExVRBoB295HS5KJasYT2rQFVI740JUsRSaMxunfERTObJ7DRSb92qFA1q~EvmChTSPQmlYyTIUXGcxbHR3VYkwjBmPdncKjkK3FSV2WFos55jaPJrWNEUTp6x8PVFTJ-mK-4Ph~g__&Key-Pair-Id=K12PMWTCQBDMDT),  [ICML 2025](https://icml.cc/Conferences/2025/ProgramCommittee), [ICCV 2025](https://iccv.thecvf.com/Conferences/2025/ProgramCommittee), AAAI 2026.
-- Journal Reviewer: International Journal of Image and Graphics, Scientific Reports.
+- Journal Reviewer:  IEEE Transactions on Multimedia, International Journal of Image and Graphics, Scientific Reports.
 
 <!-- # 📖 Educations
 - *08/2022 - 06/2025*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
