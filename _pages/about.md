@@ -54,7 +54,7 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Ligong Han, Ying Ba, Dimitris N. Metaxas. 
 
-[Project Page](https://prefgen.github.io/)
+[arXiv](https://arxiv.org/abs/2512.06020) / [Project Page](https://prefgen.github.io/)
 
 </div>
 </div>
