@@ -47,7 +47,7 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/prefgen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/prefgen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PrefGen: Multimodal Preference Learning for Preference-Conditioned Image Generation](https://arxiv.org/pdf/2512.06020)
@@ -127,7 +127,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2022</div><img src='images/neurips22.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2022</div><img src='images/neurips22.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning](https://papers.neurips.cc/paper_files/paper/2022/file/fb575ab4d882a4c734641155a5f30911-Paper-Conference.pdf)
@@ -137,7 +137,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
   <span style="color:red">(NeurIPS 2022, Spotlight)</span>  [![](https://img.shields.io/github/stars/jiangmengli/metamask?style=social&label=Code+Stars)](https://github.com/jiangmengli/metamask)
 
 </div>
-</div>
+</div> -->
 
 
 # 👩‍🏫 Invited Talks
