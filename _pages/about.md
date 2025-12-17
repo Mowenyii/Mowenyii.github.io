@@ -28,6 +28,7 @@ My research interests lie in multimodal learning, with a focus on enhancing user
 You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 
+<span style="color:red">I am currently looking for Research Intern positions for Summer 2026.</span> 
 
 
 
@@ -45,6 +46,18 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/prefgen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PrefGen: Multimodal Preference Learning for Preference-Conditioned Image Generation](https://arxiv.org/pdf/2512.06020)
+
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Ligong Han, Ying Ba, Dimitris N. Metaxas. 
+
+[Project Page](https://prefgen.github.io/)
+
+</div>
+</div>
 
 
 
