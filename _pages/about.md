@@ -74,6 +74,18 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2025</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://arxiv.org/abs/2411.19652)
+
+**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
+
+<span style="color:red">(WACV 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
+
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/ICCV25-2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -99,18 +111,7 @@ Ying Ba, Tianyu Zhang, Yalong Bai, **Wenyi Mo**, Tao Liang, Bing Su, Ji-Rong Wen
 </div>
 </div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2025</div><img src='images/wacv.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Uniform Attention Maps: Boosting Image Fidelity in Reconstruction and Editing](https://arxiv.org/abs/2411.19652)
-
-**Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
-
-<span style="color:red">(WACV 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
-
-
-</div>
-</div>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NN 2025</div><img src='images/nn25_CPKP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
