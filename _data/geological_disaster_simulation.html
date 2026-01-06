@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地质灾害教学演示</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        
+        #canvas-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+        
+        .controls {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .control-row {
+            display: flex;
+            width: 100%;
+            margin-top: 5px;
+            gap: 4px; /* 添加按钮间的固定间隙 */
+        }
+
+        .control-btn {
+            padding: 7px 6px;
+            background-color: #e0e0e0;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px; /* 更圆润的外观 */
+            text-align: center;
+            flex: 1; /* 让按钮平均分配空间 */
+            transition: all 0.3s;
+            font-size: 16px; /* 增大字体 */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加轻微阴影 */
+            min-height: 22px; /* 确保最小高度一致，调整为一半 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .control-btn.selected {
+            background-color: #4CAF50;
+            color: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        .control-btn:active {
+            transform: scale(0.98); /* 点击时轻微缩小效果 */
+        }
+
+        .control-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 18px; /* 增大标签字体 */
+        }
+
+        .control-group {
+            margin-bottom: 10px; /* 减小组间距 */
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas-container">
+        <canvas id="simulationCanvas"></canvas>
+    </div>
+
+    <!-- Add the risk level display -->
+    <div id="risk-display" style="font-size: 20px; font-weight: bold; margin: 10px 0;">
+        地质灾害风险等级 0%
+    </div>
+
+    <div class="controls">
+
+        <div class="control-group">
+            <div class="control-label">坡度 (度)</div>
+            <div class="control-row">
+                <div class="control-btn selected" data-type="slope" data-value="15">15°</div>
+                <div class="control-btn" data-type="slope" data-value="25">25°</div>
+                <div class="control-btn" data-type="slope" data-value="35">35°</div>
+                <div class="control-btn" data-type="slope" data-value="45">45°</div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <div class="control-label">植被覆盖 (%)</div>
+            <div class="control-row">
+                <div class="control-btn selected" data-type="vegetation" data-value="100">100%</div>
+                <div class="control-btn" data-type="vegetation" data-value="50">50%</div>
+                <div class="control-btn" data-type="vegetation" data-value="20">20%</div>
+                <div class="control-btn" data-type="vegetation" data-value="0">0%</div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <div class="control-label">降雨 (mm/h)</div>
+            <div class="control-row">
+                <div class="control-btn selected" data-type="rainfall" data-value="0">0</div>
+                <div class="control-btn" data-type="rainfall" data-value="3">3</div>
+                <div class="control-btn" data-type="rainfall" data-value="10">10</div>
+                <div class="control-btn" data-type="rainfall" data-value="30">30</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 状态管理
+        const state = {
+            slope: 15,           // 默认坡度
+            vegetation: 100,       // 默认植被覆盖
+            rainfall: 0,         // 默认降雨量
+            geology: 'normal'  // 固定地质类型为一般地质
+        };
+
+        // Define probability calculation based on updated rules
+        function calculateLandslideProbability() {
+            // 最坏情况下的概率为100%
+            let probability = 100;
+
+            // 雨量每降低一档则减少20%
+            switch(state.rainfall.toString()) {
+                case '30':
+                    // 最高降雨量，不做调整
+                    break;
+                case '10':
+                    probability -= 20;
+                    break;
+                case '3':
+                    probability -= 40; // 两档：10->30是两档，所以减40
+                    break;
+                case '0':
+                    probability -= 60; // 三档：0->30是三档，所以减60
+                    break;
+            }
+
+            // 坡度每降低一档则减小15%
+            switch(state.slope.toString()) {
+                case '45':
+                    // 最高坡度，不做调整
+                    break;
+                case '35':
+                    probability -= 15;
+                    break;
+                case '25':
+                    probability -= 30; // 两档：35->45是两档，所以减30
+                    break;
+                case '15':
+                    probability -= 45; // 三档：15->45是三档，所以减45
+                    break;
+            }
+
+            // 植被每增加一档则减少15%
+            switch(state.vegetation.toString()) {
+                case '0':
+                    // 最低植被覆盖，不做调整
+                    break;
+                case '20':
+                    probability -= 15;
+                    break;
+                case '50':
+                    probability -= 30; // 两档：20->0是两档，所以减30
+                    break;
+                case '100':
+                    probability -= 45; // 三档：0->100是三档，所以减45
+                    break;
+            }
+
+            // 如果计算结果小于0则按0处理
+            probability = Math.max(0, probability);
+
+            // 确保概率不超过100%
+            probability = Math.min(100, probability);
+
+            // Return 0 if result is NaN
+            return isNaN(probability) ? 0 : probability;
+        }
+
+        // Update risk display
+        function updateRiskDisplay(probability) {
+            const riskDisplay = document.getElementById('risk-display');
+            if (riskDisplay) {
+                riskDisplay.textContent = `地质灾害风险等级 ${probability}%`;
+
+                // Apply color based on risk level
+                if (probability <= 20) {
+                    riskDisplay.style.color = 'green';
+                } else if (probability <= 40) {
+                    riskDisplay.style.color = 'orange'; // yellow
+                } else if (probability <= 60) {
+                    riskDisplay.style.color = 'red';
+                } else {
+                    riskDisplay.style.color = '#8B0000'; // dark red
+                }
+            }
+        }
+
+        // Update risk display
+        function updateRiskDisplay(probability) {
+            const riskDisplay = document.getElementById('risk-display');
+            if (riskDisplay) {
+                riskDisplay.textContent = `地质灾害风险等级 ${probability}%`;
+
+                // Apply color based on risk level
+                if (probability <= 20) {
+                    riskDisplay.style.color = 'green';
+                } else if (probability <= 40) {
+                    riskDisplay.style.color = 'orange'; // yellow
+                } else if (probability <= 60) {
+                    riskDisplay.style.color = 'red';
+                } else {
+                    riskDisplay.style.color = '#8B0000'; // dark red
+                }
+            }
+        }
+
+        // 存储石头信息
+        let stones = [];
+        let lastGeology = null;  // 记录上一次的地质类型 (地质类型已固定，此变量用于判断是否需要重新生成石头)
+        let lastSlope = null;    // 记录上一次的坡度
+
+        // 存储滚动的石头信息
+        let rollingStones = [];
+        let accumulatedRollingStonesFraction = 0; // 累积的滚动石头小数部分
+        
+        // 获取画布元素
+        const canvas = document.getElementById('simulationCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // 设置画布比例为5:4（纵向），根据设备宽度自适应
+        function setupCanvas() {
+            const container = document.getElementById('canvas-container');
+            const containerWidth = Math.min(container.clientWidth, 600);
+            canvas.width = containerWidth;
+            canvas.height = (containerWidth * 5) / 4; // 4:5 的比例（纵向），高度大于宽度
+        }
+        
+        // 初始化画布尺寸
+        setupCanvas();
+        
+        // 监听窗口大小变化
+        window.addEventListener('resize', () => {
+            setupCanvas();
+            drawScene();
+        });
+        
+        // 更新状态和UI
+        function updateState(type, value) {
+            // Prevent changing geology since it's fixed to 'normal'
+            if (type === 'geology') {
+                // Reset to 'normal' regardless of what was clicked (though geological buttons are removed)
+                state.geology = 'normal';
+                return;
+            }
+
+            const oldValue = state[type];
+            state[type] = value;
+
+            // 更新按钮选中状态
+            document.querySelectorAll(`[data-type="${type}"]`).forEach(btn => {
+                btn.classList.toggle('selected', btn.dataset.value == value);
+            });
+
+            // 如果是地质类型或坡度改变，需要重新生成石头
+            // Note: geology won't change anymore, but keeping the check for potential future use
+            if ((type === 'geology' && oldValue !== value) || (type === 'slope' && oldValue !== value)) {
+                lastGeology = oldValue;
+                lastSlope = state.slope; // Update lastSlope
+                // 石头将在drawScene中重新生成，因为那时我们有正确的groundStartY值
+            }
+
+            // 如果坡度改变，清空滚动的石头
+            if (type === 'slope' && oldValue !== value) {
+                rollingStones = []; // Clear rolling stones when slope changes
+            }
+
+            drawScene();
+
+            // Update the risk display
+            const probability = calculateLandslideProbability();
+            updateRiskDisplay(probability);
+        }
+        
+        // 为所有按钮添加点击事件 (excluding geological buttons since they were removed)
+        document.querySelectorAll('.control-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.dataset.type;
+                const value = btn.dataset.value;
+                updateState(type, value);
+            });
+        });
+        
+        // 绘制场景
+        function drawScene() {
+            const width = canvas.width;
+            const height = canvas.height;
+
+            // 将角度转换为弧度
+            const slopeRad = state.slope * Math.PI / 180;
+
+            // 计算地面线的位置
+            // 地面线穿过右下角点 (width, height)，斜率为 tan(slopeRad)
+            // 直线方程: y - height = tan(slopeRad) * (x - width)
+            // 得到左边界交点
+            const groundLeftY = height - width * Math.tan(slopeRad);
+
+            // 如果地面线在画布上方或下方，则调整
+            const groundStartY = Math.max(0, Math.min(height, groundLeftY));
+            const groundEndY = height;
+
+            // 保存当前绘图状态
+            ctx.save();
+
+            // 创建剪辑区域以限制绘制范围
+            ctx.beginPath();
+            ctx.rect(0, 0, width, height);
+            ctx.clip();
+
+            // 绘制天空
+            const skyGradient = ctx.createLinearGradient(0, 0, 0, height * 0.6);
+            skyGradient.addColorStop(0, '#87CEEB'); // 浅蓝色天空顶部
+            skyGradient.addColorStop(1, '#E0F6FF'); // 浅蓝色天空底部
+
+            ctx.fillStyle = skyGradient;
+            ctx.fillRect(0, 0, width, height);
+
+            // 绘制地面
+            ctx.beginPath();
+            ctx.moveTo(0, groundStartY);
+            ctx.lineTo(width, groundEndY);
+            ctx.lineTo(width, height);
+            ctx.lineTo(0, height);
+            ctx.closePath();
+
+            // 使用统一的土壤颜色，不因地质类型而改变
+            ctx.fillStyle = '#5C4033'; // 深棕色土壤
+            ctx.fill();
+
+            // 绘制石头（根据地质类型）
+            drawStones(ctx, width, height, groundStartY, slopeRad, state.geology);
+
+            // 绘制树木（根据植被覆盖）
+            if (state.vegetation > 0) {
+                drawTrees(ctx, width, height, groundStartY, slopeRad, state.vegetation);
+            }
+
+            // 绘制雨滴（根据降雨量）
+            drawRaindrops(ctx, width, height, groundStartY, slopeRad, state.rainfall);
+
+            // 绘制地面线
+            ctx.beginPath();
+            ctx.moveTo(0, groundStartY);
+            ctx.lineTo(width, groundEndY);
+            ctx.strokeStyle = '#3B2F2F'; // 深一些的棕色线条
+            ctx.lineWidth = 2;
+            ctx.stroke();
+
+            // 恢复绘图状态
+            ctx.restore();
+        }
+        
+        // 生成石头
+        function generateStones(width, height, groundStartY, slopeRad, geology) {
+            // 石头覆盖比例：不稳定地质2%，一般地质8%，稳定地质32%
+            const stoneCoverage = geology === 'unstable' ? 0.02 : (geology === 'normal' ? 0.08 : 0.32);
+            const soilArea = (height - groundStartY) * width;
+            const areaToCover = soilArea * stoneCoverage;
+            // 估算每块石头的面积（根据画布大小调整），减小单个石头的大小
+            const avgStoneArea = soilArea * 0.002; // 每块石头占土壤面积的0.2%左右，比以前更小
+            const numStones = Math.floor(areaToCover / avgStoneArea);
+
+            // 存储已生成的石头位置，避免重叠
+            const stones = [];
+
+            // 创建一个虚拟的、更低的边界线，确保石头不会与实际地面相交
+            const boundaryOffset = 5; // 虚拟边界线比实际地面低5像素
+
+            // 首先尝试生成较大石头
+            for (let i = 0; i < numStones; i++) {
+                // 随机生成石头位置和大小，减小尺寸
+                const stoneWidth = 10 + Math.random() * 20; // 减小宽度范围
+                const stoneHeight = 8 + Math.random() * 15; // 减小高度范围
+
+                // 在整个画布区域内随机定位，但确保在地面线下方
+                const x = Math.random() * (width - stoneWidth);
+
+                // 计算在x位置处地面的高度
+                const groundYAtX = groundStartY + (x * Math.tan(slopeRad));
+
+                // 计算在x+width位置处地面的高度 (for the right edge of the stone)
+                const groundYAtXRight = groundStartY + ((x + stoneWidth) * Math.tan(slopeRad));
+
+                // Use a lookup table for the limit based on slope: 4, 8, 14, 20 px for 15, 25, 35, 45 deg respectively
+                const slopeLimitTable = {
+                    '15': 4,
+                    '25': 8,
+                    '35': 14,
+                    '45': 20
+                };
+
+                // Get the limit based on current slope
+                const limitOffset = slopeLimitTable[state.slope.toString()] || 4; // default to 4 if not found
+
+                // Use the ground height as the reference and apply the slope-specific limit
+                const boundaryYAtX = groundYAtX + limitOffset;
+                const boundaryYAtXRight = groundYAtXRight + limitOffset;
+
+                // Use the lower of the two boundary lines to ensure the entire stone is below the limit
+                const effectiveBoundary = Math.min(boundaryYAtX, boundaryYAtXRight);
+
+                // 为确保石头不与地面相交，石头的顶部(y坐标)必须在边界线以下
+                // 即 y >= effectiveBoundary，确保石头完全在虚拟边界线下方
+                const minY = effectiveBoundary; // 石头顶部的最小y坐标（虚拟边界高度）
+                const maxY = height - stoneHeight; // 石头不能超出画布底部
+
+                if (minY < maxY) { // 只有当有足够空间时才放置石头
+                    const y = minY + Math.random() * (maxY - minY);
+
+                    // 检查是否与已生成的石头重叠
+                    let overlapping = false;
+                    for (const existingStone of stones) {
+                        const dx = Math.abs(existingStone.x + existingStone.width/2 - (x + stoneWidth/2));
+                        const dy = Math.abs(existingStone.y + existingStone.height/2 - (y + stoneHeight/2));
+                        if (dx < (existingStone.width + stoneWidth)/2 && dy < (existingStone.height + stoneHeight)/2) {
+                            overlapping = true;
+                            break;
+                        }
+                    }
+
+                    if (!overlapping) {
+                        stones.push({x, y, width: stoneWidth, height: stoneHeight});
+                    }
+                }
+            }
+
+            // 检查实际覆盖面积是否达到目标
+            let currentCoveredArea = 0;
+            for (const stone of stones) {
+                currentCoveredArea += stone.width * stone.height;
+            }
+
+            // 如果当前覆盖面积未达到目标，尝试添加更小的石头
+            const maxAttempts = 200; // 添加最大尝试次数防止无限循环
+            let attempts = 0;
+
+            while (currentCoveredArea < areaToCover && attempts < maxAttempts) {
+                attempts++;
+
+                // 尝试生成更小的石头
+                const stoneWidth = 5 + Math.random() * 10; // 更小的宽度范围
+                const stoneHeight = 4 + Math.random() * 8; // 更小的高度范围
+
+                // 在整个画布区域内随机定位，但确保在地面线下方
+                const x = Math.random() * (width - stoneWidth);
+
+                // 计算在x位置处地面的高度
+                const groundYAtX = groundStartY + (x * Math.tan(slopeRad));
+
+                // 计算在x+width位置处地面的高度 (for the right edge of the stone)
+                const groundYAtXRight = groundStartY + ((x + stoneWidth) * Math.tan(slopeRad));
+
+                // Use a lookup table for the limit based on slope: 4, 8, 14, 20 px for 15, 25, 35, 45 deg respectively
+                const slopeLimitTable = {
+                    '15': 4,
+                    '25': 8,
+                    '35': 14,
+                    '45': 20
+                };
+
+                // Get the limit based on current slope
+                const limitOffset = slopeLimitTable[state.slope.toString()] || 4; // default to 4 if not found
+
+                // Use the ground height as the reference and apply the slope-specific limit
+                const boundaryYAtX = groundYAtX + limitOffset;
+                const boundaryYAtXRight = groundYAtXRight + limitOffset;
+
+                // Use the lower of the two boundary lines to ensure the entire stone is below the limit
+                const effectiveBoundary = Math.min(boundaryYAtX, boundaryYAtXRight);
+
+                // 为确保石头不与地面相交，石头的顶部(y坐标)必须在边界线以下
+                // 即 y >= effectiveBoundary，确保石头完全在虚拟边界线下方
+                const minY = effectiveBoundary; // 石头顶部的最小y坐标（虚拟边界高度）
+                const maxY = height - stoneHeight; // 石头不能超出画布底部
+
+                if (minY < maxY) { // 只有当有足够空间时才放置石头
+                    const y = minY + Math.random() * (maxY - minY);
+
+                    // 检查是否与已生成的石头重叠
+                    let overlapping = false;
+                    for (const existingStone of stones) {
+                        const dx = Math.abs(existingStone.x + existingStone.width/2 - (x + stoneWidth/2));
+                        const dy = Math.abs(existingStone.y + existingStone.height/2 - (y + stoneHeight/2));
+                        if (dx < (existingStone.width + stoneWidth)/2 && dy < (existingStone.height + stoneHeight)/2) {
+                            overlapping = true;
+                            break;
+                        }
+                    }
+
+                    if (!overlapping) {
+                        stones.push({x, y, width: stoneWidth, height: stoneHeight});
+                        currentCoveredArea += stoneWidth * stoneHeight;
+
+                        // 重置尝试计数，因为成功放置了一个石头
+                        attempts = 0;
+
+                        // 添加了小石头后，如果已经非常接近目标，可以停止
+                        if (currentCoveredArea >= areaToCover) {
+                            break;
+                        }
+                    }
+                }
+                // 如果 minY >= maxY, there's no space for this stone size, so continue to next attempt
+            }
+
+            return stones;
+        }
+
+        // 绘制石头
+        function drawStones(ctx, width, height, groundStartY, slopeRad, geology) {
+            // 如果地质类型或坡度改变，需要重新生成石头
+            if (lastGeology !== geology || lastSlope !== state.slope) {
+                stones = generateStones(width, height, groundStartY, slopeRad, geology);
+                lastGeology = geology;
+                lastSlope = state.slope;
+            }
+
+            // 绘制所有已生成的石头
+            for (const stone of stones) {
+                drawStone(ctx, stone.x, stone.y, stone.width, stone.height);
+            }
+        }
+
+        // 绘制单个石头
+        function drawStone(ctx, x, y, width, height) {
+            ctx.save();
+
+            // 使用浅棕色
+            ctx.fillStyle = '#D2B48C';
+            ctx.strokeStyle = '#A09070';
+            ctx.lineWidth = 1;
+
+            // 绘制不规则多边形 - ensure all points are within the bounding box
+            ctx.beginPath();
+            ctx.moveTo(x + width * 0.2, y);                 // Top-left point
+            ctx.lineTo(x + width * 0.8, y + height * 0.1);  // Top-right point
+            ctx.lineTo(x + width, y + height * 0.4);        // Right point
+            ctx.lineTo(x + width * 0.8, y + height * 0.9);  // Bottom-right point
+            ctx.lineTo(x + width * 0.2, y + height);        // Bottom-left point
+            ctx.lineTo(x, y + height * 0.6);                // Left point
+            ctx.closePath();
+
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.restore();
+        }
+
+        // Function to spawn rolling stones based on probability
+        function spawnRollingStones(currentProbability, deltaTime, canvasWidth, canvasHeight) {
+            // Calculate how many stones to spawn per second: int(N/5)
+            const stonesPerSecond = Math.floor(currentProbability / 5);
+
+            // Calculate how many should spawn in this time interval
+            const timeInSeconds = deltaTime / 1000; // Convert milliseconds to seconds
+            const stonesToSpawn = stonesPerSecond * timeInSeconds;
+
+            // Add to accumulated fraction and spawn whole stones from the accumulated fraction
+            accumulatedRollingStonesFraction += stonesToSpawn;
+            const wholeStonesToSpawn = Math.floor(accumulatedRollingStonesFraction);
+            accumulatedRollingStonesFraction -= wholeStonesToSpawn; // Keep the remaining fraction
+
+            // Create that many stones
+            for (let i = 0; i < wholeStonesToSpawn; i++) {
+                // Random starting x position at the TOP of the slope (first 1/3 of the width)
+                const startX = Math.random() * (canvasWidth / 3);
+
+                // Calculate ground height at this x position to start the stone from the slope surface
+                // Recreate the ground calculation from drawScene
+                const slopeRad = state.slope * Math.PI / 180;
+                const groundLeftY = canvasHeight - canvasWidth * Math.tan(slopeRad);
+                const groundStartY = Math.max(0, Math.min(canvasHeight, groundLeftY));
+                const groundYAtX = groundStartY + (startX * Math.tan(slopeRad));
+
+                // Rolling stones have the color halfway between soil (#5C4033) and rock (#D2B48C)
+                // Soil: RGB(92, 64, 51), Rock: RGB(210, 180, 140)
+                // Halfway: RGB((92+210)/2, (64+180)/2, (51+140)/2) = RGB(151, 122, 95.5) ≈ #977A60
+                const color = '#977A60';
+
+                // Random size for rolling stones (more circular for rolling effect)
+                // Size ranges from min 2px to max N/3 px where N is probability percentage
+                const maxRollingSize = Math.max(2, currentProbability / 3);
+                const size = 2 + Math.random() * (maxRollingSize - 2); // min 2 to max based on probability
+                const width = size;
+                const height = size;
+
+                // Rolling stones roll down the slope at a variable speed based on slope angle
+                // Calculate base speed along the slope to make them take 2 seconds to move along the slope line
+                // The length of the slope from left to right edge is width / cos(slopeRad)
+                let speedAlongSlope = (canvasWidth / Math.cos(slopeRad)) / 2; // base slope length / 2 seconds
+
+                // Apply slope-dependent speed multiplier: 0.5x, 0.7x, 1x, 1.4x for 15, 25, 35, 45 deg
+                const slopeSpeedMultipliers = {
+                    '15': 0.5,
+                    '25': 0.7,
+                    '35': 1.0,
+                    '45': 1.4
+                };
+
+                const speedMultiplier = slopeSpeedMultipliers[state.slope.toString()] || 1.0; // default to 1.0 if not found
+                speedAlongSlope *= speedMultiplier;
+
+                // Calculate movement components based on the slope angle
+                // When moving down a slope of angle α, x component = speed * cos(α) and y component = speed * sin(α)
+                const speedX = speedAlongSlope * Math.cos(slopeRad);
+                const speedY = speedAlongSlope * Math.sin(slopeRad);
+
+                // Add rolling stone to array
+                rollingStones.push({
+                    x: startX,
+                    y: groundYAtX - height, // Start on the slope surface at the top
+                    width: width,
+                    height: height,
+                    color: color,
+                    speedX: speedX,
+                    speedY: speedY,
+                    slopeRad: slopeRad
+                });
+            }
+        }
+
+        // Function to update and draw rolling stones
+        function updateAndDrawRollingStones(ctx, deltaTime) {
+            // Update existing rolling stones
+            for (let i = rollingStones.length - 1; i >= 0; i--) {
+                const stone = rollingStones[i];
+
+                // Move the stone along the slope
+                stone.x += (stone.speedX * deltaTime) / 1000; // Convert speed to pixels per frame
+                stone.y += (stone.speedY * deltaTime) / 1000; // Convert speed to pixels per frame
+
+                // Calculate the ground Y at the stone's new X position to check if it's past the slope
+                const groundLeftY = canvas.height - canvas.width * Math.tan(stone.slopeRad);
+                const groundStartY = Math.max(0, Math.min(canvas.height, groundLeftY));
+                const groundYAtStoneX = groundStartY + (stone.x * Math.tan(stone.slopeRad));
+
+                // Remove stones that have rolled off the bottom of the slope
+                // The stone has rolled off if it's past the right edge or if its y position is below the bottom of the canvas
+                if (stone.x > canvas.width || stone.y > canvas.height) {
+                    rollingStones.splice(i, 1);
+                    continue;
+                }
+
+                // Draw the rolling stone
+                drawRollingStone(ctx, stone.x, stone.y, stone.width, stone.height, stone.color);
+            }
+        }
+
+        // Function to draw a rolling stone
+        function drawRollingStone(ctx, x, y, width, height, color) {
+            ctx.save();
+
+            ctx.fillStyle = color;
+            ctx.strokeStyle = '#7D634C'; // Darker border
+            ctx.lineWidth = 1;
+
+            // Draw a more rounded shape for rolling stones (ellipse-like)
+            const centerX = x + width / 2;
+            const centerY = y + height / 2;
+            const radiusX = width / 2;
+            const radiusY = height / 2;
+
+            // Draw an ellipse for a more rounded stone that looks like it can roll
+            ctx.beginPath();
+            ctx.ellipse(centerX, centerY, radiusX, radiusY, 0, 0, Math.PI * 2);
+            ctx.closePath();
+
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.restore();
+        }
+
+        // 绘制树木
+        function drawTrees(ctx, width, height, groundStartY, slopeRad, vegetationPercent) {
+            // 基于参考宽度（如600px）计算树木数量，以保持一致的密度
+            const referenceWidth = 600; // 参考宽度
+            const referenceTrees = (referenceWidth / 40) * (vegetationPercent / 100) * 1.5;
+
+            // 根据当前宽度与参考宽度的比例调整树木数量
+            const totalTrees = Math.max(1, Math.floor((referenceTrees * width) / referenceWidth));
+
+            // 计算树木之间的间距
+            const spacing = width / (totalTrees + 1);
+
+            for (let i = 0; i < totalTrees; i++) {
+                // 计算树木在斜坡上的位置
+                const x = (i + 1) * spacing;
+
+                // 根据斜坡角度计算地面高度
+                const groundY = groundStartY + (x * Math.tan(slopeRad));
+
+                // 绘制树干和树冠
+                drawTree(ctx, x, groundY);
+            }
+        }
+
+        // 绘制单棵树
+        function drawTree(ctx, x, groundY) {
+            ctx.save();
+
+            // 树木垂直于水平线，而非斜坡
+            // 树根位置在地面（稍微在地面下一点）
+            const rootX = x;
+            const rootY = groundY;
+
+            // 树干垂直向上
+            ctx.strokeStyle = '#8B4513'; // 褐色树干
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(rootX, rootY);      // 树根在地面
+            ctx.lineTo(rootX, rootY - 35); // 树干高度为35
+            ctx.stroke();
+
+            // 树冠：绿色
+            ctx.fillStyle = '#228B22'; // 森林绿
+            ctx.beginPath();
+            ctx.arc(rootX, rootY - 40, 12, 0, Math.PI * 2); // 树冠
+            ctx.fill();
+
+            ctx.restore();
+        }
+
+        // 雨滴数组和痕迹数组
+        const raindrops = [];
+        const rainTraces = []; // 存储雨滴撞击地面后的痕迹
+
+        // 绘制雨滴
+        function drawRaindrops(ctx, width, height, groundStartY, slopeRad, rainfall) {
+            // 根据降雨量确定是否添加新雨滴
+            const rainIntensity = rainfall / 30; // 归一化到0-1
+            if (rainfall > 0) {
+                const newRaindropsCount = Math.floor(rainIntensity * 100); // 最大100个雨滴
+
+                // 添加新雨滴
+                for (let i = 0; i < newRaindropsCount * 0.1; i++) { // 每帧添加一些新雨滴
+                    raindrops.push({
+                        x: Math.random() * width,
+                        y: -10,
+                        speed: (2 + Math.random() * 3) * 2, // 2x speed
+                        life: 1.0,  // 生命值，用于淡出效果
+                        maxLength: 5 + Math.random() * 10
+                    });
+                }
+            }
+
+            // 更新和绘制雨滴
+            for (let i = raindrops.length - 1; i >= 0; i--) {
+                const drop = raindrops[i];
+
+                // 更新位置
+                drop.y += drop.speed;
+
+                // 检查是否碰撞地面
+                const groundYAtDropX = groundStartY + (drop.x * Math.tan(slopeRad));
+
+                if (drop.y > groundYAtDropX) {
+                    // 雨滴撞击地面，生成痕迹
+                    rainTraces.push({
+                        x: drop.x,
+                        y: groundYAtDropX,
+                        startTime: Date.now(),
+                        duration: 500 // 0.5秒内淡化
+                    });
+
+                    // 移除此雨滴
+                    raindrops.splice(i, 1);
+                    continue;
+                }
+
+                // 绘制雨滴
+                ctx.save();
+                ctx.strokeStyle = `rgba(0, 0, 240, ${drop.life})`; // 更亮的蓝色，带透明度
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(drop.x, drop.y - drop.maxLength);
+                ctx.lineTo(drop.x, drop.y);
+                ctx.stroke();
+                ctx.restore();
+
+                // 移除超出画布的雨滴
+                if (drop.y > height + 20) {
+                    raindrops.splice(i, 1);
+                }
+            }
+
+            // 绘制并更新痕迹
+            for (let i = rainTraces.length - 1; i >= 0; i--) {
+                const trace = rainTraces[i];
+                const elapsed = Date.now() - trace.startTime;
+                const opacity = 1 - (elapsed / trace.duration); // 随时间减少透明度
+
+                if (opacity > 0) {
+                    ctx.save();
+                    ctx.fillStyle = `rgba(0, 0, 240, ${opacity})`; // 更亮的蓝色痕迹
+                    ctx.beginPath();
+                    ctx.arc(trace.x, trace.y, 2, 0, Math.PI * 2); // 小圆点作为雨滴痕迹
+                    ctx.fill();
+                    ctx.restore();
+                } else {
+                    // 移除过期的痕迹
+                    rainTraces.splice(i, 1);
+                }
+            }
+        }
+
+        // 动画控制
+        let lastRenderTime = null;
+        const targetFPS = 30;
+        const frameInterval = 1000 / targetFPS; // milliseconds per frame
+
+        // 动画循环
+        function animate(currentTime) {
+            // Initialize lastRenderTime on first call
+            if (lastRenderTime === null) {
+                lastRenderTime = currentTime;
+            }
+
+            // Calculate time difference since last rendered frame
+            const actualDeltaTime = currentTime - lastRenderTime;
+
+            // 清除画布 and draw at the target FPS
+            if (actualDeltaTime >= frameInterval) {
+                lastRenderTime = currentTime; // Update for next frame timing
+
+                // 清除画布
+                const width = canvas.width;
+                const height = canvas.height;
+                ctx.clearRect(0, 0, width, height);
+
+                // 重新绘制整个场景
+                drawScene();
+
+                // Update and draw rolling stones based on current probability
+                // Use the actual time that has passed since last render
+                const probability = calculateLandslideProbability();
+                spawnRollingStones(probability, actualDeltaTime, canvas.width, canvas.height);
+                updateAndDrawRollingStones(ctx, actualDeltaTime);
+            }
+
+            // 请求下一帧
+            requestAnimationFrame(animate);
+        }
+
+        // 初始绘制
+        drawScene();
+
+        // Update the risk display initially
+        state.geology = 'normal'; // Ensure geology is fixed to 'normal' on initialization
+        const initialProbability = calculateLandslideProbability();
+        updateRiskDisplay(initialProbability);
+
+        // 启动动画循环
+        animate(0);
+    </script>
+</body>
+</html>
