@@ -23,7 +23,7 @@ redirect_from:
 
 <!-- , and earned my B.E. from the South China University of Technology -->
 
-I am a first-year Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I am advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
+I am a CS Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I am advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
 My research interests lie in multimodal learning, with a focus on enhancing user alignment and image controllability in generative models. Recently, I’ve been working with autoregressive and diffusion models, particularly in the context of text-to-image generation and preference alignment.
 You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
@@ -155,7 +155,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 
 # 👩‍💻 Academic Services
-- Conference Reviewer: NeurIPS ([2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers), [2025](https://neurips.cc/Conferences/2025/ProgramCommittee)), ICLR ([2025](https://iclr.cc/Conferences/2025/ProgramCommittee), 2026), AISTATS (2025, 2026), CVPR ([2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee), 2026), [WACV 2025](https://csdl-downloads.ieeecomputer.org/proceedings/wacv/2025/1083/00/108300z185.pdf?Expires=1761594373&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jc2RsLWRvd25sb2Fkcy5pZWVlY29tcHV0ZXIub3JnL3Byb2NlZWRpbmdzL3dhY3YvMjAyNS8xMDgzLzAwLzEwODMwMHoxODUucGRmIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYxNTk0MzczfX19XX0_&Signature=xWEIEU8VRX6B9EVfW2msdOVeJCor35fOWCReEAQgmqinXwyXbWapMGLXmzOslDvW~eHi93q5wfZOjQcb6gm0EyuwAsw-RA5qaQD57syMdQFwd6xYmsN7mt-REJZquBS45c670Ldu3FNFwAOR92xqPyIdRLuObZ~70pwQjEFNkD2SEmDCijJCh9ZVu5fDvh72eca5ax9TbUMj1LExVRBoB295HS5KJasYT2rQFVI740JUsRSaMxunfERTObJ7DRSb92qFA1q~EvmChTSPQmlYyTIUXGcxbHR3VYkwjBmPdncKjkK3FSV2WFos55jaPJrWNEUTp6x8PVFTJ-mK-4Ph~g__&Key-Pair-Id=K12PMWTCQBDMDT),  [ICML 2025](https://icml.cc/Conferences/2025/ProgramCommittee), [ICCV 2025](https://iccv.thecvf.com/Conferences/2025/ProgramCommittee), AAAI 2026.
+- Conference Reviewer: NeurIPS ([2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers), [2025](https://neurips.cc/Conferences/2025/ProgramCommittee)), ICLR ([2025](https://iclr.cc/Conferences/2025/ProgramCommittee), 2026), AISTATS (2025, 2026), CVPR ([2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee), 2026), [WACV 2025](https://csdl-downloads.ieeecomputer.org/proceedings/wacv/2025/1083/00/108300z185.pdf?Expires=1761594373&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jc2RsLWRvd25sb2Fkcy5pZWVlY29tcHV0ZXIub3JnL3Byb2NlZWRpbmdzL3dhY3YvMjAyNS8xMDgzLzAwLzEwODMwMHoxODUucGRmIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYxNTk0MzczfX19XX0_&Signature=xWEIEU8VRX6B9EVfW2msdOVeJCor35fOWCReEAQgmqinXwyXbWapMGLXmzOslDvW~eHi93q5wfZOjQcb6gm0EyuwAsw-RA5qaQD57syMdQFwd6xYmsN7mt-REJZquBS45c670Ldu3FNFwAOR92xqPyIdRLuObZ~70pwQjEFNkD2SEmDCijJCh9ZVu5fDvh72eca5ax9TbUMj1LExVRBoB295HS5KJasYT2rQFVI740JUsRSaMxunfERTObJ7DRSb92qFA1q~EvmChTSPQmlYyTIUXGcxbHR3VYkwjBmPdncKjkK3FSV2WFos55jaPJrWNEUTp6x8PVFTJ-mK-4Ph~g__&Key-Pair-Id=K12PMWTCQBDMDT),  [ICML 2025](https://icml.cc/Conferences/2025/ProgramCommittee), [ICCV 2025](https://iccv.thecvf.com/Conferences/2025/ProgramCommittee), AAAI 2026, BMVC 2026.
 - Journal Reviewer:  IEEE Transactions on Multimedia, International Journal of Image and Graphics, Scientific Reports.
 
 <!-- # 📖 Educations
@@ -175,10 +175,12 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 
 # 🎨 Hobbies
 
-Outside research, I enjoy exploring art, film, and music as ways to understand human creativity from different perspectives. I love hiking in places such as [the Great Wall](https://en.wikipedia.org/wiki/Great_Wall_of_China) (Beijing, China), [Diamond Head State Monument](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) (Honolulu, Hawaii), [Crown Point](https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=108) (Portland, Oregon), [Taihang Mountain](https://en.wikipedia.org/wiki/Taihang_Mountains) (Henan, China), and [Enshi Grand Canyon](https://en.wikipedia.org/wiki/Enshi_Grand_Canyon) (Hubei, China).
-Some of my favorite films include [*Coraline*](https://www.imdb.com/title/tt0327597/) for its enchanting stop-motion artistry and [*The Shining*](https://www.imdb.com/title/tt0081505/) for its psychological depth.
-Musically, I often listen to [David Tao](https://en.wikipedia.org/wiki/David_Tao), [Utada Hikaru](https://en.wikipedia.org/wiki/Utada_Hikaru), [Erik Satie](https://historia-arte.com/obras/un-bohemio-erik-satie-en-su-estudio), and [Ryuichi Sakamoto](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto).
-In visual arts, I particularly appreciate the works of [Suzanne Valadon](https://en.wikipedia.org/wiki/Suzanne_Valadon), [Edward Hopper](https://historia-arte.com/artistas/edward-hopper), [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh), and [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio).
+Outside research, I enjoy exploring art, film, and music as ways to understand human creativity from different perspectives.
+
+- **Film:** My watchlist and reviews are on [Letterboxd](https://letterboxd.com/peanutmilk030/films/).
+- **Hiking:** I love hiking in places such as [the Great Wall](https://en.wikipedia.org/wiki/Great_Wall_of_China) (Beijing, China), [Diamond Head State Monument](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) (Honolulu, Hawaii), [Crown Point](https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=108) (Portland, Oregon), [Taihang Mountain](https://en.wikipedia.org/wiki/Taihang_Mountains) (Henan, China), and [Enshi Grand Canyon](https://en.wikipedia.org/wiki/Enshi_Grand_Canyon) (Hubei, China).
+- **Music:** I often listen to [David Tao](https://en.wikipedia.org/wiki/David_Tao), [Utada Hikaru](https://en.wikipedia.org/wiki/Utada_Hikaru), [Erik Satie](https://historia-arte.com/obras/un-bohemio-erik-satie-en-su-estudio), and [Ryuichi Sakamoto](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto).
+- **Visual arts:** I particularly appreciate the works of [Suzanne Valadon](https://en.wikipedia.org/wiki/Suzanne_Valadon), [Edward Hopper](https://historia-arte.com/artistas/edward-hopper), [Vincent van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh), and [Caravaggio](https://en.wikipedia.org/wiki/Caravaggio).
 
 
 <link rel="stylesheet" href="/assets/css/gallery.css">
