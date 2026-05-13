@@ -41,30 +41,158 @@
 @import "print";
 
 /* --------------------------------------------------------------------------
-   Home / profile polish (typography, cards, lists)
+   Premium light theme: typography, surfaces, depth (no dark mode)
    -------------------------------------------------------------------------- */
+
+$font-sans-premium: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-serif-display: "Newsreader", Georgia, "Times New Roman", serif;
+$surface-border: rgba(34, 75, 140, 0.09);
+$surface-shadow: 0 4px 28px rgba(15, 23, 42, 0.055);
+$surface-shadow-hover: 0 12px 40px rgba(34, 75, 140, 0.1);
+
+body {
+  font-family: $font-sans-premium;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7fb;
+  background-image:
+    radial-gradient(ellipse 110% 70% at 0% -15%, rgba(34, 75, 141, 0.055) 0%, transparent 52%),
+    radial-gradient(ellipse 90% 55% at 100% 0%, rgba(90, 110, 165, 0.04) 0%, transparent 48%),
+    linear-gradient(180deg, #fafbfd 0%, #f5f7fb 35%, #f5f7fb 100%);
+}
+
+.masthead {
+  background: rgba(255, 255, 255, 0.82);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(34, 75, 140, 0.08);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+}
+
+.masthead__inner-wrap {
+  font-family: $font-sans-premium;
+}
+
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  font-family: $font-sans-premium;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+#main {
+  padding-bottom: 2.5rem;
+}
+
+.sidebar p,
+.sidebar li,
+.sidebar .author__urls-wrapper,
+.sidebar .author__bio {
+  font-family: $font-sans-premium;
+}
+
+.page__footer {
+  font-family: $font-sans-premium;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, #e9eef6 100%);
+  border-top: 1px solid rgba(34, 75, 140, 0.1);
+  color: rgba(75, 85, 102, 0.92);
+
+  a:hover {
+    color: $info-color;
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: rgba(75, 85, 102, 0.75);
+  }
+}
+
+.page__footer-copyright {
+  font-family: $font-sans-premium;
+}
+
+.page__footer-follow li {
+  font-family: $font-sans-premium;
+  letter-spacing: 0.04em;
+}
+
+.profile_box {
+  font-family: $font-sans-premium;
+  background: #fff;
+  border: 1px solid $surface-border;
+  border-radius: 16px;
+  padding: 1.1rem 1.15rem;
+  margin-bottom: 1.15rem;
+  box-shadow: 0 2px 20px rgba(15, 23, 42, 0.04);
+
+  @include breakpoint($large) {
+    padding: 1.35rem 1.25rem;
+    border-radius: 18px;
+    box-shadow: $surface-shadow;
+  }
+}
+
+.author__avatar img {
+  box-shadow: 0 6px 20px rgba(34, 75, 141, 0.12);
+  border: 3px solid #fff !important;
+  outline: 1px solid rgba(34, 75, 140, 0.12);
+  outline-offset: 0;
+}
+
+.sidebar .author__name {
+  font-family: $font-sans-premium;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+article.page {
+  background: #fff;
+  border: 1px solid $surface-border;
+  border-radius: 16px;
+  box-shadow: $surface-shadow;
+  padding: 1.35rem 1.25rem 1.85rem;
+  box-sizing: border-box;
+
+  @include breakpoint($medium) {
+    padding: 1.65rem 1.75rem 2.15rem;
+    border-radius: 18px;
+  }
+
+  @include breakpoint($large) {
+    padding: 2rem 2.25rem 2.5rem;
+  }
+}
 
 .page__content {
   .about-intro {
-    font-size: 1.05em;
-    line-height: 1.65;
-    color: mix(#000, $text-color, 5%);
-    padding: 1.25rem 1.35rem;
-    margin: 0 0 1.5rem;
-    background: linear-gradient(135deg, mix($info-color, #fff, 6%) 0%, mix(#f4f7fb, #fff, 50%) 100%);
-    border-radius: 10px;
-    border: 1px solid mix($info-color, #fff, 18%);
-    box-shadow: 0 1px 2px rgba($info-color, 0.06);
+    font-size: 1.06em;
+    line-height: 1.68;
+    color: mix(#000, $text-color, 8%);
+    padding: 1.35rem 1.45rem;
+    margin: 0 0 1.65rem;
+    background:
+      linear-gradient(145deg, rgba(255, 255, 255, 0.65) 0%, transparent 42%),
+      linear-gradient(135deg, mix($info-color, #fff, 7%) 0%, mix(#eef3fb, #fff, 55%) 48%, #f9fbff 100%);
+    border-radius: 14px;
+    border: 1px solid rgba(34, 75, 140, 0.11);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.85) inset,
+      0 8px 28px rgba(34, 75, 140, 0.06);
   }
 
   h1 {
+    font-family: $font-serif-display;
     font-weight: 600;
-    letter-spacing: -0.02em;
+    font-size: 1.85em;
+    letter-spacing: -0.03em;
     border-bottom: none;
     border-left: 4px solid $info-color;
-    padding: 0 0 0.35rem 0.75rem;
-    margin-top: 2rem;
-    margin-bottom: 0.85rem;
+    padding: 0 0 0.35rem 0.85rem;
+    margin-top: 2.1rem;
+    margin-bottom: 0.95rem;
+    color: mix(#000, $text-color, 12%);
   }
 
   .news-list {
@@ -74,12 +202,13 @@
 
     li {
       position: relative;
-      padding: 0.55rem 0.85rem 0.55rem 1rem;
-      margin-bottom: 0.5rem;
-      border-radius: 8px;
-      background: $code-background-color;
-      border: 1px solid $border-color;
+      padding: 0.62rem 1rem 0.62rem 1.05rem;
+      margin-bottom: 0.55rem;
+      border-radius: 10px;
+      background: linear-gradient(180deg, #fff 0%, #f8fafc 100%);
+      border: 1px solid rgba(34, 75, 140, 0.1);
       border-left: 3px solid $info-color;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
     }
 
     li::marker {
@@ -89,16 +218,36 @@
 
   .venue-tag {
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.78em;
     font-weight: 600;
-    letter-spacing: 0.02em;
-    color: #1a4a8c;
-    background: mix($info-color, #fff, 12%);
-    border: 1px solid mix($info-color, #fff, 35%);
-    border-radius: 6px;
-    padding: 0.15em 0.55em;
-    margin-right: 0.35em;
+    letter-spacing: 0.03em;
+    color: #153d72;
+    background: linear-gradient(180deg, mix($info-color, #fff, 11%) 0%, mix($info-color, #fff, 16%) 100%);
+    border: 1px solid rgba(34, 75, 140, 0.18);
+    border-radius: 7px;
+    padding: 0.18em 0.58em;
+    margin-right: 0.4em;
     vertical-align: middle;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset;
+  }
+
+  a {
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(34, 75, 140, 0.32);
+    transition: color 0.18s ease, text-decoration-color 0.18s ease;
+
+    &:hover {
+      text-decoration-color: rgba(34, 75, 140, 0.55);
+    }
+  }
+
+  a:has(> img) {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -111,16 +260,20 @@
     gap: 0;
     margin: 0 0 1.5rem;
     padding: 1.35rem 1.25rem;
-    background: $body-color;
-    border: 1px solid $border-color;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+    background: linear-gradient(180deg, #fff 0%, #fafbfd 100%);
+    border: 1px solid $surface-border;
+    border-radius: 14px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.9) inset,
+      0 2px 12px rgba(15, 23, 42, 0.04);
+    transition: box-shadow 0.28s ease, transform 0.28s ease, border-color 0.28s ease;
 
     &:hover {
-        box-shadow: 0 8px 28px rgba($info-color, 0.12);
-        border-color: mix($info-color, $border-color, 35%);
-        transform: translateY(-2px);
+        box-shadow:
+          0 1px 0 rgba(255, 255, 255, 0.95) inset,
+          $surface-shadow-hover;
+        border-color: rgba(34, 75, 140, 0.16);
+        transform: translateY(-3px);
     }
 
     .paper-box-image {
@@ -208,11 +361,15 @@ h1:before, .anchor:before {
     z-index: 2;
     margin: 0;
     color: #fff;
+    font-family: $font-sans-premium;
     background: linear-gradient(135deg, darken(#00369f, 4%) 0%, lighten(#00369f, 8%) 100%);
     font-size: 0.72em;
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.2) inset,
+      0 3px 12px rgba(0, 30, 80, 0.28);
 }

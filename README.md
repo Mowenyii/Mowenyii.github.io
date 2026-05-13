@@ -60,10 +60,18 @@ Some examples:
 
 1. Clone your REPO to local using `git clone`.
 1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
+1. Run `bash run_server.sh` (macOS / Linux) or `run_server.bat` (Windows) to start the Jekyll server with LiveReload.
 1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
+1. If you change the source code of the website, the LiveReload server will refresh the page when possible.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+
+### Bundler / `Could not find 'bundler'` (macOS)
+
+If you see `Could not find 'bundler' (x.y.z) required by your Gemfile.lock`, macOS is often using the old system Ruby and `/usr/bin/bundle`, which does not see a user-installed Bundler.
+
+`run_server.sh` fixes this by prepending `$(ruby -e 'puts File.join(Gem.user_dir, "bin")')` to `PATH` and running `gem install bundler -v <version from Gemfile.lock> --user-install` when needed. You still need a working `gem` (Xcode Command Line Tools or a [Homebrew Ruby](https://jekyllrb.com/docs/installation/macos/)).
+
+If `gem install` fails with permission or SSL errors, install a current Ruby with Homebrew or [rbenv](https://github.com/rbenv/rbenv), then run `gem install bundler` and `bundle install` again.
 
 # Acknowledges
 
