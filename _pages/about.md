@@ -23,9 +23,11 @@ redirect_from:
 
 <!-- , and earned my B.E. from the South China University of Technology -->
 
+<div class="about-intro" markdown="1">
 I am a CS Ph.D. student at [Rutgers University](https://www.rutgers.edu/), where I am advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/). I received my Master’s degree from the [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
 My research focuses on generative models and reinforcement learning for alignment and controllable optimization. I am particularly interested in applying RL-based fine-tuning to large (vision-)language models.
 You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
+</div>
 
 
 <!-- <span style="color:red">I am currently looking for Research Intern positions for Summer 2026.</span>  -->
@@ -39,7 +41,9 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 - *11/2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
 - *10/2024*: 🎉 One first-authored paper about image editing accepted to WACV 2025.
 - *02/2024*: 🎉 One first-authored paper about Text-to-Image generation accepted to CVPR 2024.
-- *09/2022*: 🎉 One co-authored paper accepted to NeurIPS 2022.
+{: .news-list}
+
+<!-- - *09/2022*: 🎉 One co-authored paper accepted to NeurIPS 2022. -->
 
 
 
@@ -69,7 +73,7 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen, Qing Yang. 
 
-<span style="color:red">(CVPR 2024)</span>  [![](https://img.shields.io/github/stars/Mowenyii/PAE?style=social&label=Code+Stars)](https://github.com/Mowenyii/PAE)
+<span class="venue-tag">CVPR 2024</span> [![](https://img.shields.io/github/stars/Mowenyii/PAE?style=social&label=Code+Stars)](https://github.com/Mowenyii/PAE)
 
 </div>
 </div>
@@ -82,7 +86,7 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 **Wenyi Mo**, Tianyu Zhang, Yalong Bai, Bing Su<sup>✉</sup>, Ji-Rong Wen. 
 
-<span style="color:red">(WACV 2025)</span>  [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
+<span class="venue-tag">WACV 2025</span> [![](https://img.shields.io/github/stars/Mowenyii/Uniform-Attention-Maps?style=social&label=Code+Stars)](https://github.com/Mowenyii/Uniform-Attention-Maps) 
 
 
 </div>
@@ -95,7 +99,7 @@ You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 Ying Ba, Tianyu Zhang, Yalong Bai, **Wenyi Mo**, Tao Liang, Bing Su, Ji-Rong Wen. 
 
-<span style="color:red">(ICCV 2025)</span>  [![](https://img.shields.io/github/stars/BarretBa/ICTHP?style=social&label=Code+Stars)](https://github.com/BarretBa/ICTHP) 
+<span class="venue-tag">ICCV 2025</span> [![](https://img.shields.io/github/stars/BarretBa/ICTHP?style=social&label=Code+Stars)](https://github.com/BarretBa/ICTHP) 
 
 
 </div>

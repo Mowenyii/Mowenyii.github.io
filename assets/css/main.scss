@@ -40,51 +40,154 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* --------------------------------------------------------------------------
+   Home / profile polish (typography, cards, lists)
+   -------------------------------------------------------------------------- */
+
+.page__content {
+  .about-intro {
+    font-size: 1.05em;
+    line-height: 1.65;
+    color: mix(#000, $text-color, 5%);
+    padding: 1.25rem 1.35rem;
+    margin: 0 0 1.5rem;
+    background: linear-gradient(135deg, mix($info-color, #fff, 6%) 0%, mix(#f4f7fb, #fff, 50%) 100%);
+    border-radius: 10px;
+    border: 1px solid mix($info-color, #fff, 18%);
+    box-shadow: 0 1px 2px rgba($info-color, 0.06);
+  }
+
+  h1 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    border-bottom: none;
+    border-left: 4px solid $info-color;
+    padding: 0 0 0.35rem 0.75rem;
+    margin-top: 2rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .news-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      position: relative;
+      padding: 0.55rem 0.85rem 0.55rem 1rem;
+      margin-bottom: 0.5rem;
+      border-radius: 8px;
+      background: $code-background-color;
+      border: 1px solid $border-color;
+      border-left: 3px solid $info-color;
+    }
+
+    li::marker {
+      content: none;
+    }
+  }
+
+  .venue-tag {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #1a4a8c;
+    background: mix($info-color, #fff, 12%);
+    border: 1px solid mix($info-color, #fff, 35%);
+    border-radius: 6px;
+    padding: 0.15em 0.55em;
+    margin-right: 0.35em;
+    vertical-align: middle;
+  }
+}
+
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    gap: 0;
+    margin: 0 0 1.5rem;
+    padding: 1.35rem 1.25rem;
+    background: $body-color;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
 
-    .paper-box-image{
+    &:hover {
+        box-shadow: 0 8px 28px rgba($info-color, 0.12);
+        border-color: mix($info-color, $border-color, 35%);
+        transform: translateY(-2px);
+    }
+
+    .paper-box-image {
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
+
+        > div {
+            position: relative;
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
             object-fit: cover;
+            transition: transform 0.35s ease;
         }
     }
-    
-    .paper-box-text{
+
+    &:hover .paper-box-image img {
+        transform: scale(1.02);
+    }
+
+    .paper-box-text {
         max-width: 100%;
         order: 1;
+
+        p {
+            margin-bottom: 0.4em;
+        }
+
+        a {
+            font-weight: 500;
+        }
     }
-    
+
     @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
+        flex-wrap: nowrap;
+        padding: 1.5rem 1.35rem;
+
+        .paper-box-image {
+            justify-content: flex-start;
             min-width: 200px;
             max-width: 40%;
             order: 1;
+
+            > div {
+                margin: 0;
+            }
         }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
+
+        .paper-box-text {
+            justify-content: flex-start;
+            padding-left: 1.75rem;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
@@ -98,12 +201,18 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.35rem 0.75rem;
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    top: 0.65rem;
+    left: 0.65rem;
+    z-index: 2;
+    margin: 0;
+    color: #fff;
+    background: linear-gradient(135deg, darken(#00369f, 4%) 0%, lighten(#00369f, 8%) 100%);
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
