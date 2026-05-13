@@ -28,11 +28,12 @@ My research focuses on generative models and reinforcement learning for alignmen
 You can find my CV [here](https://mowenyii.github.io/files/Wenyi_Mo.pdf).
 
 
-<span style="color:red">I am currently looking for Research Intern positions for Summer 2026.</span> 
+<!-- <span style="color:red">I am currently looking for Research Intern positions for Summer 2026.</span>  -->
 
 
 
 # 🔥 News
+- *04/2026*: 🎉 One co-authored paper accepted to ICML 2026.
 - *06/2025*: 🎉 [One co-authored paper](https://github.com/BarretBa/ICTHP) about Text-to-Image generation accepted to ICCV 2025.
 - *01/2025*: 🎉 One co-authored paper about vision-language models accepted to Neural Networks 2025.
 - *11/2024*: 🎉 Recognized as a [top reviewer at NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers).
@@ -146,6 +147,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 - *06/2024*, Poster Presentation @ CVPR Seattle, Washington. 
 
 # 🎖 Honors and Awards
+- ICML 2026 Silver Reviewer Award
 - ICCV 2025 Travel Support Award
 - Top Reviewer at NeurIPS 2024
 - Merit Graduated Student of Renmin University of China.
