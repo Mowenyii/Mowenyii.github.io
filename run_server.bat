@@ -15,6 +15,9 @@ if errorlevel 1 (
   call gem install bundler -v %BUNDLER_VERSION%
 )
 
+REM Install gems into the repo (no admin rights); matches run_server.sh.
+call bundle config set --local path vendor/bundle
+
 call bundle install
 echo.
 echo Open http://127.0.0.1:4000 in your browser. Press Ctrl+C to stop.

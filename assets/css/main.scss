@@ -187,12 +187,15 @@ article.page {
     font-weight: 600;
     font-size: 1.85em;
     letter-spacing: -0.03em;
+    line-height: 1.25;
     border-bottom: none;
     border-left: 4px solid $info-color;
     padding: 0 0 0.35rem 0.85rem;
-    margin-top: 2.1rem;
-    margin-bottom: 0.95rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
     color: mix(#000, $text-color, 12%);
+    /* Avoid h1::before scroll hack — it stretches border-left upward. Use native scroll margin for anchors. */
+    scroll-margin-top: 4.5rem;
   }
 
   .news-list {
@@ -344,12 +347,14 @@ article.page {
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+/* Do not apply scroll-offset ::before to h1 — border-left would span the pseudo box and overlap content above.
+   Kramdown heading anchors use scroll-margin-top on h1; keep legacy hack only for empty .anchor spans. */
+.anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 

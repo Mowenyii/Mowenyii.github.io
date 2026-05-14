@@ -65,13 +65,17 @@ Some examples:
 1. If you change the source code of the website, the LiveReload server will refresh the page when possible.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
 
-### Bundler / `Could not find 'bundler'` (macOS)
+### Bundler / `Could not find 'bundler'` / `PermissionError` (macOS)
 
 If you see `Could not find 'bundler' (x.y.z) required by your Gemfile.lock`, macOS is often using the old system Ruby and `/usr/bin/bundle`, which does not see a user-installed Bundler.
 
-`run_server.sh` fixes this by prepending `$(ruby -e 'puts File.join(Gem.user_dir, "bin")')` to `PATH` and running `gem install bundler -v <version from Gemfile.lock> --user-install` when needed. You still need a working `gem` (Xcode Command Line Tools or a [Homebrew Ruby](https://jekyllrb.com/docs/installation/macos/)).
+`run_server.sh` does three things so local preview works **without sudo**:
 
-If `gem install` fails with permission or SSL errors, install a current Ruby with Homebrew or [rbenv](https://github.com/rbenv/rbenv), then run `gem install bundler` and `bundle install` again.
+1. Prepends `$(ruby -e 'puts File.join(Gem.user_dir, "bin")')` to `PATH` and installs the Bundler version listed under `BUNDLED WITH` in `Gemfile.lock` with `gem install bundler -v … --user-install` when missing.
+2. Sets `GEM_HOME` and `GEM_PATH` to your user gem directory so RubyGems does **not** try to write caches under `/Library/Ruby/Gems/...` (that path triggers `Bundler::PermissionError` on Apple’s system Ruby).
+3. Runs `bundle config set --local path vendor/bundle` so all gems install under `./vendor/bundle` (gitignored), not into the system tree.
+
+You still need a working `gem` (Xcode Command Line Tools or a [Homebrew Ruby](https://jekyllrb.com/docs/installation/macos/)). If `gem install` fails with SSL errors or your Ruby is too old, use Homebrew or [rbenv](https://github.com/rbenv/rbenv) and run `bash run_server.sh` again.
 
 # Acknowledges
 
