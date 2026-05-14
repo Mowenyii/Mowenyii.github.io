@@ -164,9 +164,10 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 - Conference Reviewer: NeurIPS ([2024](https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers), [2025](https://neurips.cc/Conferences/2025/ProgramCommittee)), ICLR ([2025](https://iclr.cc/Conferences/2025/ProgramCommittee), [2026](https://iclr.cc/Conferences/2026/ProgramCommittee)), AISTATS (2025, 2026), CVPR ([2025](https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee), 2026), [WACV 2025](https://csdl-downloads.ieeecomputer.org/proceedings/wacv/2025/1083/00/108300z185.pdf?Expires=1761594373&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jc2RsLWRvd25sb2Fkcy5pZWVlY29tcHV0ZXIub3JnL3Byb2NlZWRpbmdzL3dhY3YvMjAyNS8xMDgzLzAwLzEwODMwMHoxODUucGRmIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYxNTk0MzczfX19XX0_&Signature=xWEIEU8VRX6B9EVfW2msdOVeJCor35fOWCReEAQgmqinXwyXbWapMGLXmzOslDvW~eHi93q5wfZOjQcb6gm0EyuwAsw-RA5qaQD57syMdQFwd6xYmsN7mt-REJZquBS45c670Ldu3FNFwAOR92xqPyIdRLuObZ~70pwQjEFNkD2SEmDCijJCh9ZVu5fDvh72eca5ax9TbUMj1LExVRBoB295HS5KJasYT2rQFVI740JUsRSaMxunfERTObJ7DRSb92qFA1q~EvmChTSPQmlYyTIUXGcxbHR3VYkwjBmPdncKjkK3FSV2WFos55jaPJrWNEUTp6x8PVFTJ-mK-4Ph~g__&Key-Pair-Id=K12PMWTCQBDMDT),  [ICML 2025](https://icml.cc/Conferences/2025/ProgramCommittee), [ICCV 2025](https://iccv.thecvf.com/Conferences/2025/ProgramCommittee), AAAI 2026, BMVC 2026.
 - Journal Reviewer:  IEEE Transactions on Multimedia, International Journal of Image and Graphics, Scientific Reports.
 
-<!-- # 📖 Educations
-- *08/2022 - 06/2025*, Master, Department of  Artificial Intelligence, Renmin University of China, Beijing.
-- *08/2018 - 06/2022*, Undergraduate, Department of Computer Science, South China University of Technology, Guangzhou. -->
+# 📖 Education
+- *09/2025 – present*, Ph.D. in Computer Science, [Rutgers University](https://www.rutgers.edu/), New Brunswick, NJ. Advised by [Prof. Dimitris N. Metaxas](https://people.cs.rutgers.edu/~dnm/).
+- *08/2022 – 06/2025*, Master’s in Artificial Intelligence, [Renmin University of China](http://ai.ruc.edu.cn/english/index.htm), Beijing. Advised by [Prof. Bing Su](https://gsai.ruc.edu.cn/english/bingsu).
+- *08/2018 – 06/2022*, B.E. in Computer Science, [South China University of Technology](https://www.scut.edu.cn/en/), Guangzhou.
 
 
 
@@ -174,7 +175,7 @@ Jiangmeng Li, **Wenyi Mo**, Fei Song, Chuxiong Sun, Wenwen Qiang, Bing Su, and C
 - *03/2024 - 09/2025*, In2X, Beijing, China.
 - *01/2024 - 03/2024*, Bytedance Seed, Shanghai, China.
 - *09/2023 - 01/2024*, Du Xiaoman Technology, Beijing, China.
-- *01/2022 - 03/2022*, Jingdong Exploration Research Institute, Beijing, China.
+<!-- - *01/2022 - 03/2022*, Jingdong Exploration Research Institute, Beijing, China. -->
 
 
 
